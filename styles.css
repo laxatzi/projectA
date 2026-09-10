@@ -231,3 +231,12 @@ section:last-of-type {
   padding: 0;
   margin: 20px 0;
 }
+
+/* # Fonts */
+
+.noto-sans-thin {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
