@@ -234,9 +234,39 @@ section:last-of-type {
 
 /* # Fonts */
 
-.noto-sans-thin {
+.noto-sans-thin,
+.noto-sans-light,
+.noto-sans-medium,
+.noto-sans-bold,
+.noto-sans-bolder {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
   font-style: normal;
+}
+
+.noto-sans-italic {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.noto-sans-thin {
+  font-weight: 200;
+}
+
+.noto-sans-light {
+  font-weight: 300;
+}
+
+.noto-sans-medium {
+  font-weight: 400;
+}
+
+.noto-sans-bold {
+  font-weight: 700;
+}
+
+.noto-sans-bolder {
+  font-weight: 900;
 }
