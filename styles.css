@@ -1,13 +1,14 @@
 :root {
   --color: #0f1312;
   --color-lighter: #2a3331;
-  --color-background: #cee9e3;
-  --color-background-alt: #a6c2bc;
-  --color-background-dark: #495754;
-  --color-main-dark: #975266;
-  --color-main-light: #c36c84;
-  --color-distinct: #9ba3a8;
-  --color-distinct-light: #c2c9cc;
+  --color-background: #eaf0fd;
+  --color-background-dark: #b4c8f8;
+  --color-main-dark: #2440e9;
+  --color-main: #5077ee;
+  --color-main-light: #7f9ff3;
+  --color-background-alt: #c2c9cc;
+  --color-background-alt-light: #edeff0;
+  --color-background-alt-dark: #9ba3a8;
 }
 
 *,
@@ -224,6 +225,18 @@ section {
 section:last-of-type {
   margin-bottom: 20px;
   border-bottom: none;
+}
+
+.padding-vertical {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+/* ⬇️ MEDIA SCREEN  */
+@media screen and (max-width: 764px) {
+  .padding-vertical {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
 }
 
 .section-project {
