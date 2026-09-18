@@ -7,6 +7,7 @@
   - Gradients
 ---------------------------------------------------------------- */
 :root {
+  /* - Colors */
   --color: #0f1312;
   --color-lighter: #2a3331;
   --color-background: #f8fafe;
@@ -17,7 +18,17 @@
   --color-background-alt: #c2c9cc;
   --color-background-alt-light: #edeff0;
   --color-background-alt-dark: #9ba3a8;
-}
+  /* - Typography Variables */
+  --bs-font-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
+  /* - Gradients */
+  --bs-gradient: linear-gradient(
+    291deg,
+    rgba(248, 250, 254, 1) 0%,
+    rgba(210, 224, 250, 1) 82%,
+     rgba(248, 250, 254, 1) 100%
+     );
+
 
 /* --------------------------------------------------------------
 # Generic
