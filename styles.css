@@ -1,7 +1,7 @@
 :root {
   --color: #0f1312;
   --color-lighter: #2a3331;
-  --color-background: #eaf0fd;
+  --color-background: #f8fafe;
   --color-background-dark: #b4c8f8;
   --color-main-dark: #2440e9;
   --color-main: #5077ee;
@@ -319,3 +319,31 @@ section:last-of-type {
 .noto-serif-bolder {
   font-weight: 900;
 }
+
+/* # Screen Reader Only */
+
+.u-sr-only {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+  border: 0;
+  padding: 0;
+  margin: -1px;
+}
+
+.u-sr-only:focus {
+  clip: auto;
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  z-index: 10000;
+  background: #fff;
+  color: #000;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+/* HEADER */
