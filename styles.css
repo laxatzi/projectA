@@ -18,18 +18,18 @@
   --color-background-alt: #c2c9cc;
   --color-background-alt-light: #edeff0;
   --color-background-alt-dark: #9ba3a8;
+  --color-distinct: #eec750;
   /* - Typography Variables */
-  --bs-font-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+  --bs-font-monospace: Menlo, Consolas, "Liberation Mono", "Courier New",
     monospace;
   /* - Gradients */
   --bs-gradient: linear-gradient(
     291deg,
     rgba(248, 250, 254, 1) 0%,
     rgba(210, 224, 250, 1) 82%,
-     rgba(248, 250, 254, 1) 100%
-     );
-
-
+    rgba(248, 250, 254, 1) 100%
+  );
+}
 /* --------------------------------------------------------------
 # Generic
 ---------------------------------------------------------------- */
