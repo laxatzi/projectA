@@ -456,9 +456,20 @@ section:last-of-type {
 
 .site-header_nav {
   padding-inline: calc(var(--spacing-xs) * 40);
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #ee50c6;
+}
+
+.site-header {
+  background-color: var(--color-distinct);
+  display: flex;
+}
+
+.nav-list {
+}
+
+.nav-logo {
 }
 
 /*
