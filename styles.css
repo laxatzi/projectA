@@ -53,6 +53,12 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
 
+  /* Spacing system */
+  --space-xm: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-m: 1rem;
+  --space-lg: 2rem;
+
   /* - Border Variables */
   --bs-border-width: 1px;
   --bs-border-style: solid;
