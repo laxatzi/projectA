@@ -48,6 +48,11 @@
   --text-lg: 1.125rem;
   --text-xl: 1.25rem;
 
+  /* Layout breakpoints */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+
   /* - Border Variables */
   --bs-border-width: 1px;
   --bs-border-style: solid;
