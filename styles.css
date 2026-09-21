@@ -29,6 +29,31 @@
     rgba(210, 224, 250, 1) 82%,
     rgba(248, 250, 254, 1) 100%
   );
+
+  /* -Typography Variables */
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: var(--color);
+  --bs-body-bg: var(--color-background);
+  --bs-link-color: var(--color-main);
+  --bs-link-hover-color: var(--color-main-dark);
+  --bs-code-color: #ee50c6;
+
+  /* - Border Variables */
+  --bs-border-width: 1px;
+  --bs-border-style: solid;
+  --bs-border-color: var(--color-background-alt);
+  --bs-border-color-transparent: transparent;
+  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+  --bs-border-radius: 0.375rem;
+  --bs-border-radius-sm: 0.25rem;
+  --bs-border-radius-lg: 0.5rem;
+  /* main */
+  --bs-border-radius-xl: 1rem;
+  --bs-border-radius-2xl: 2rem;
+  --bs-border-radius-3xl: 50rem;
+  --bs-border-radius-pill: 100px;
 }
 /* --------------------------------------------------------------
 # Generic
