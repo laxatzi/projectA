@@ -54,7 +54,7 @@
   --breakpoint-lg: 1024px;
 
   /* Spacing system */
-  --space-xm: 0.25rem;
+  --space-xs: 0.25rem;
   --space-sm: 0.5rem;
   --space-m: 1rem;
   --space-lg: 2rem;
@@ -73,6 +73,11 @@
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-3xl: 50rem;
   --bs-border-radius-pill: 100px;
+
+  /* button */
+  --button-bg-primary: var(--color-main);
+  --button-text-primary: var(--color-background-alt-light);
+  --button-padding: var(--space-xs) var(--space-m);
 }
 
 /* --------------------------------------------------------------
@@ -450,7 +455,10 @@ section:last-of-type {
 /* HEADER */
 
 .site-header_nav {
-  padding-inline: calc(var(--spacing) * 40);
+  padding-inline: calc(var(--spacing-xs) * 40);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #ee50c6;
 }
 
 /*
