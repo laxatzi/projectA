@@ -455,7 +455,7 @@ section:last-of-type {
 /* HEADER */
 
 .site-header_nav {
-  padding-inline: calc(var(--spacing-xs) * 40);
+  padding-inline: calc(var(--space-xs) * 40);
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #ee50c6;
