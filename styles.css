@@ -464,6 +464,7 @@ section:last-of-type {
 .site-header {
   background-color: var(--color-distinct);
   display: flex;
+  justify-content: space-between;
 }
 
 .nav-list {
