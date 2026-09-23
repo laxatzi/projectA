@@ -517,6 +517,7 @@ li.nav-list_item {
 main {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  margin-inline: calc(var(--space-xs) * 40);
 }
 
 /* HERO SECTION */
