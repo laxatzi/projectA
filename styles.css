@@ -32,6 +32,9 @@
 
   /* -Typography Variables Basic */
   --bs-body-font-size: 1rem;
+  --bs-body-font-size-small: 0.87rem;
+  --bs-body-font-size-large: 1.15rem;
+  --bs-body-font-size-larger: 1.25rem;
   --bs-body-font-weight: 400;
   --bs-body-font-weight-bold: 600;
   --bs-body-font-weight-bolder: 800;
@@ -524,4 +527,9 @@ main {
 .hero {
   border: 1px solid blue;
   padding: 1rem;
+}
+
+.hero-span {
+  color: var(--color-lighter);
+  font-size: var(--bs-body-font-size);
 }
