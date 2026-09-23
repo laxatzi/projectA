@@ -460,11 +460,9 @@ section:last-of-type {
   padding-inline: calc(var(--space-xs) * 40);
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #ee50c6;
 }
 
 .site-header {
-  background-color: var(--color-distinct);
   display: flex;
   justify-content: space-between;
 }
@@ -473,7 +471,6 @@ section:last-of-type {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid red;
   flex: 2;
 }
 
@@ -487,6 +484,7 @@ li.nav-list_item {
 
 .nav-list_link a {
   text-decoration: none;
+  font-size: var(--bs-body-font-size);
 }
 
 .contact {
@@ -513,7 +511,7 @@ li.nav-list_item {
 .contact-btn_content {
   display: flex;
   font-size: var(--bs-body-font-size);
-  font-weight: var(--bs-body-font-weight);
+  font-weight: var(--bs-body-font-weight-bold);
 }
 
 main {
