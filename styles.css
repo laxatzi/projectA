@@ -515,3 +515,14 @@ li.nav-list_item {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
 }
+
+main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* HERO SECTION */
+.hero {
+  border: 1px solid blue;
+  padding: 1rem;
+}
