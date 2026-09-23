@@ -531,5 +531,7 @@ main {
 
 .hero-span {
   color: var(--color-lighter);
-  font-size: var(--bs-body-font-size);
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  padding: 6px 16px 6px 10px;
 }
