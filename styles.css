@@ -468,9 +468,15 @@ section:last-of-type {
 }
 
 .nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid red;
+  flex: 2;
 }
 
 .nav-logo {
+  flex: 3;
 }
 
 .nav__list-item {
