@@ -545,3 +545,7 @@ main {
   align-items: center;
   justify-content: center;
 }
+
+.distinct-text {
+  color: var(--color-main);
+}
