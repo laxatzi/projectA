@@ -554,3 +554,11 @@ main {
 .distinct-text {
   color: var(--color-main);
 }
+
+.hero-desc {
+  color: var(--color-lighter);
+}
+
+h3.hero-desc {
+  font-size: var(--bs-body-font-size-larger);
+}
