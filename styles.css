@@ -144,6 +144,7 @@ h1 {
   font-size: clamp(2rem, 4.75vw, 5.15rem);
   font-weight: 800;
   line-height: 1.15;
+  letter-spacing: -0.05em;
 }
 
 h2 {
