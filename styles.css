@@ -141,7 +141,9 @@ h6 {
 }
 
 h1 {
-  font-size: clamp(2rem, 4vw, 3.55rem);
+  font-size: clamp(2rem, 4.75vw, 5.15rem);
+  font-weight: 800;
+  line-height: 1.15;
 }
 
 h2 {
@@ -521,6 +523,7 @@ main {
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-inline: calc(var(--space-xs) * 40);
+  border: 1px solid red;
 }
 
 /* HERO SECTION */
