@@ -483,10 +483,17 @@ section:last-of-type {
 
 .nav-logo {
   flex: 3;
+  margin-left: 15px;
 }
 
 li.nav-list_item {
   list-style-type: none;
+}
+
+.nav-list_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-list_link a {
@@ -525,7 +532,6 @@ main {
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-inline: calc(var(--space-xs) * 40);
-  border: 1px solid red;
 }
 
 @media screen and (max-width: 920px) {
@@ -542,7 +548,6 @@ main {
 
 /* HERO SECTION */
 .hero {
-  border: 1px solid blue;
   padding: 1rem;
 }
 
@@ -576,7 +581,6 @@ h3.hero-desc {
 }
 
 .hero-container {
-  border: 2px solid purple;
   display: grid;
   grid-template-columns: 5fr 2fr;
 }
