@@ -514,6 +514,12 @@ li.nav-list_item {
   font-size: var(--bs-body-font-size);
 }
 
+@media screen and (max-width: 1284px) {
+  .nav-list_link a {
+    font-size: var(--bs-body-font-size-small);
+  }
+}
+
 .contact {
   background-color: transparent;
   display: flex;
