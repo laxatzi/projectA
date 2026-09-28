@@ -487,6 +487,10 @@ section:last-of-type {
   }
 }
 
+.nav-logo {
+  flex: 3;
+}
+
 @media screen and (max-width: 1284px) {
   .nav-logo {
     flex: 2;
