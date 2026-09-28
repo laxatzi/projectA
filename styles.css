@@ -481,9 +481,22 @@ section:last-of-type {
   flex: 2;
 }
 
-.nav-logo {
-  flex: 3;
-  margin-left: 15px;
+@media screen and (max-width: 920px) {
+  .nav-list {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1284px) {
+  .nav-logo {
+    flex: 2;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .nav-logo {
+    flex: 1;
+  }
 }
 
 li.nav-list_item {
