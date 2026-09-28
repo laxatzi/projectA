@@ -569,6 +569,11 @@ main {
   }
 }
 
+@media screen and (max-width: 550px) {
+  main {
+    margin-inline: calc(var(--space-xs) * 10);
+  }
+}
 /* HERO SECTION */
 .hero {
   padding: 1rem;
@@ -578,12 +583,18 @@ main {
   border: 1px solid var(--color-background-alt-dark);
   border-radius: var(--bs-border-radius-2xl);
   display: inline-block;
-  width: 20%;
+  width: 30%;
+}
+
+@media screen and (max-width: 1284px) {
+  .hero-span_wrapper {
+    width: 50%;
+  }
 }
 
 .hero-span {
   color: var(--color-lighter);
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
   text-transform: uppercase;
   padding: 6px 16px 6px 10px;
   display: flex;
