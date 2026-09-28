@@ -528,6 +528,18 @@ main {
   border: 1px solid red;
 }
 
+@media screen and (max-width: 920px) {
+  main {
+    margin-inline: calc(var(--space-xs) * 30);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    margin-inline: calc(var(--space-xs) * 20);
+  }
+}
+
 /* HERO SECTION */
 .hero {
   border: 1px solid blue;
