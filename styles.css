@@ -562,3 +562,21 @@ main {
 h3.hero-desc {
   font-size: var(--bs-body-font-size-larger);
 }
+
+.hero-container {
+  border: 2px solid purple;
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+}
+
+@media screen and (max-width: 1284px) {
+  .hero-container {
+    grid-template-columns: 3fr 1fr;
+  }
+}
+
+@media screen and (max-width: 924px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+}
