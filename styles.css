@@ -596,6 +596,7 @@ main {
 /* HERO SECTION */
 .hero {
   padding: 1rem;
+  padding-left: 0;
 }
 
 .hero-span_wrapper {
