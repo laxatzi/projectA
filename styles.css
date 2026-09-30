@@ -34,6 +34,7 @@
   /* -Typography Variables Basic */
   --bs-body-font-size: 1rem;
   --bs-body-font-size-small: 0.87rem;
+  --bs-body-font-size-smaller: 0.74rem;
   --bs-body-font-size-large: 1.15rem;
   --bs-body-font-size-larger: 1.25rem;
   --bs-body-font-weight: 400;
@@ -626,9 +627,11 @@ li.nav-list_item {
   }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1200px) {
   .contact button {
-    padding-inline: calc(var(--space-xs) * 2);
+    padding-inline: calc(var(--space-xs) * 4);
+    padding-top: var(--space-m);
+    padding-bottom: var(--space-m);
   }
 }
 
@@ -638,6 +641,12 @@ li.nav-list_item {
   font-weight: var(--bs-body-font-weight-bold);
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-btn_content {
+    font-size: var(--bs-body-font-size-smaller);
+  }
 }
 
 .contact-btn_svg {
