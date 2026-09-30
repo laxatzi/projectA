@@ -580,6 +580,12 @@ li.nav-list_item {
   font-weight: var(--bs-body-font-weight-bold);
 }
 
+.contact-btn_svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 main {
   padding-top: 2rem;
   padding-bottom: 2rem;
