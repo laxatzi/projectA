@@ -564,9 +564,9 @@ li.nav-list_item {
   position: relative;
   z-index: 0;
   isolation: isolate;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
+  display: inline-block;
+  margin-left: 0.4rem;
+  vertical-align: middle;
   padding-inline: calc(var(--space-xs) * 4);
   padding-top: var(--space-m);
   padding-bottom: var(--space-m);
@@ -581,8 +581,8 @@ li.nav-list_item {
   font: 600 14px/1 Arial, sans-serif;
   letter-spacing: 0.01em;
 
-  /* On mouse-out, return the text to dark immediately. */
-  transition: color 0s;
+  /* On mouse-out, return the text to dark with a slight delay. For no delay make it 0s */
+  transition: color 1s;
 }
 
 .contact button::before {
