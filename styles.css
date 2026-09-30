@@ -516,18 +516,6 @@ section:last-of-type {
 .nav-logo {
   flex: 1;
 }
-/*
-@media screen and (max-width: 1284px) {
-  .nav-logo {
-    flex: 2;
-  }
-}
-
-@media screen and (max-width: 920px) {
-  .nav-logo {
-    flex: 1;
-  }
-} */
 
 li.nav-list_item {
   list-style-type: none;
