@@ -572,7 +572,7 @@ li.nav-list_item {
   overflow: hidden;
 
   border: 1px solid var(--color);
-  border-radius: var(--bs-border-radius-xl);
+  border-radius: var(--bs-border-radius-2xl);
   color: var(--ink);
   background: transparent;
   text-decoration: none;
@@ -607,6 +607,11 @@ li.nav-list_item {
 .contact button:hover::before,
 .contact button:focus-visible::before {
   transform: scaleX(1);
+}
+
+.contact button:hover svg,
+.contact button:focus-visible svg {
+  color: #fff;
 }
 
 .contact button:focus-visible {
