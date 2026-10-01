@@ -516,6 +516,11 @@ section:last-of-type {
   }
 }
 
+@media screen and (max-width: 920px) {
+  .nav-list {
+    display: none;
+  }
+}
 .nav-list_void {
   flex: 1;
 }
@@ -530,10 +535,14 @@ section:last-of-type {
   display: flex;
   align-items: center;
 }
-
 @media screen and (max-width: 920px) {
-  .nav-list {
-    display: none;
+  .nav-list_wrapper {
+    text-align: right;
+    flex: 1;
+  }
+
+  .svg-inline--fa {
+    height: 1.5em;
   }
 }
 
@@ -546,10 +555,16 @@ section:last-of-type {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 920px) {
   .nav-logo {
-    max-width: 300px;
-    display: block;
+    font-weight: bold;
+    flex: 4;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-logo {
+    flex: 3;
   }
 }
 
@@ -584,7 +599,8 @@ li.nav-list_item {
 
 @media screen and (max-width: 920px) {
   .contact {
-    flex: 3;
+    flex: 2;
+    justify-content: center;
   }
 }
 
