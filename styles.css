@@ -723,7 +723,7 @@ main {
   margin-inline: calc(var(--space-xs) * 40);
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 960px) {
   main {
     margin-inline: calc(var(--space-xs) * 30);
   }
@@ -828,9 +828,8 @@ h3.hero-desc {
   position: relative;
   z-index: 0;
   display: inline-block;
-  margin-left: 0.4rem;
   vertical-align: middle;
-  padding-inline: calc(var(--space-xs) * 4);
+  padding-inline: calc(var(--space-xs) * 20);
   padding-top: var(--space-m);
   padding-bottom: var(--space-m);
   overflow: hidden;
@@ -892,7 +891,7 @@ h3.hero-desc {
 
 @media screen and (max-width: 1200px) {
   .hero-contact button {
-    padding-inline: calc(var(--space-xs) * 4);
+    padding-inline: calc(var(--space-xs) * 20);
     padding-top: var(--space-m);
     padding-bottom: var(--space-m);
   }
@@ -900,7 +899,15 @@ h3.hero-desc {
 
 @media screen and (max-width: 960px) {
   .hero-contact button {
-    padding-inline: calc(var(--space-xs) * 2);
+    padding-inline: calc(var(--space-xs) * 15);
+    padding-top: var(--space-m);
+    padding-bottom: var(--space-m);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .hero-contact button {
+    padding-inline: calc(var(--space-xs) * 10);
     padding-top: var(--space-sm);
     padding-bottom: var(--space-sm);
   }
