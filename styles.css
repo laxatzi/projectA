@@ -301,7 +301,7 @@ blockquote {
 section {
   margin: 70px 0;
   padding: 30px;
-  border-bottom: 2px solid var(--color-lighter);
+  /* border-bottom: 2px solid var(--color-lighter); */
 }
 @media screen and (max-width: 940px) {
   section {
@@ -720,8 +720,6 @@ li.nav-list_item {
 }
 
 main {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
   margin-inline: calc(var(--space-xs) * 40);
 }
 
@@ -741,6 +739,11 @@ main {
   main {
     margin-inline: calc(var(--space-xs) * 10);
   }
+}
+
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 /* HERO SECTION */
 .hero {
