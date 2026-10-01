@@ -762,6 +762,9 @@ section {
   z-index: 99;
   margin-top: 5em;
   background-color: pink;
+  margin-left: 10px;
+  width: 98vw;
+  margin-top: 4%;
 }
 
 /* # HERO SECTION */
