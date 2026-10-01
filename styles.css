@@ -524,6 +524,7 @@ section:last-of-type {
 .nav-list_void {
   flex: 1;
 }
+
 @media screen and (max-width: 1200px) {
   .nav-list_void {
     display: none;
@@ -745,7 +746,25 @@ section {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-/* HERO SECTION */
+
+.nav-list_sub {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  margin-top: 5em;
+  background-color: pink;
+}
+
+/* # HERO SECTION */
 .hero {
   padding: 1rem;
   padding-left: 0;
