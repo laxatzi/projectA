@@ -747,6 +747,17 @@ section {
   padding-bottom: 2rem;
 }
 
+.toggle-icons {
+  display: none;
+}
+
+@media screen and (max-width: 920px) {
+  .toggle-icons {
+    display: flex;
+    cursor: pointer;
+  }
+}
+
 .nav-list_sub {
   display: flex;
   visibility: hidden;
@@ -767,7 +778,7 @@ section {
   border-radius: var(--bs-border-radius-sm);
   box-shadow: 1px 1px 1px var(--color-background-alt);
   background-color: var(--color-background-alt-light);
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
   transform: translateY(-20%);
 }
 
