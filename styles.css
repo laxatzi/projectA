@@ -549,16 +549,17 @@ section:last-of-type {
 .nav-list_wrapper {
   flex: 3;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  justify-content: center;
 }
 @media screen and (max-width: 920px) {
   .nav-list_wrapper {
-    text-align: right;
     flex: 1;
   }
 
   .svg-inline--fa {
-    height: 1.125em;
+    width: 2.2rem;
+    font-size: 1.93rem;
   }
 }
 
@@ -783,6 +784,8 @@ section {
   .toggle-icons {
     display: flex;
     cursor: pointer;
+    background-color: var(--color-background);
+    border: none;
   }
 }
 
