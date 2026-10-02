@@ -524,10 +524,15 @@ section:last-of-type {
     top: 60px;
     left: 0;
     width: 100%;
+    background-color: pink;
   }
 
   .nav-list.active {
     display: flex;
+  }
+
+  .nav-list .nav-list_item a {
+    font-size: var(--bs-body-font-size-large);
   }
 }
 .nav-list_void {
@@ -552,7 +557,7 @@ section:last-of-type {
   }
 
   .svg-inline--fa {
-    height: 1.5em;
+    height: 1.125em;
   }
 }
 
