@@ -585,6 +585,10 @@ section:last-of-type {
   }
 }
 
+.nav-logo a {
+  text-decoration: none;
+}
+
 li.nav-list_item {
   list-style-type: none;
   display: flex;
