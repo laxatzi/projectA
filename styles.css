@@ -749,6 +749,7 @@ section {
 
 .nav-list_sub {
   display: flex;
+  visibility: hidden;
   list-style-type: none;
   padding: 0;
   position: absolute;
@@ -759,13 +760,19 @@ section {
   align-items: center;
   z-index: 99;
   margin-left: 10px;
-  margin-top: calc(var(--space-xs) * 20);
+  margin-top: calc(var(--space-xs) * 24);
 
   width: 98vw;
   border: 1px solid var(--color-background-alt);
   border-radius: var(--bs-border-radius-sm);
   box-shadow: 1px 1px 1px var(--color-background-alt);
   background-color: var(--color-background-alt-light);
+  transition: all 0.5s ease;
+  transform: translateY(-20%);
+}
+
+.caret:hover .nav-list_sub {
+  visibility: visible;
 }
 
 .nav-list_sub li {
