@@ -841,8 +841,15 @@ section {
   }
 }
 
-.caret:hover .nav-list__sub {
+/* .caret:hover .nav-list__sub {
   visibility: visible;
+} */
+
+.menu-button {
+  font-size: var(--bs-body-font-size);
+  background-color: var(--color-background);
+  font-weight: 500;
+  border: none;
 }
 
 .nav-list__sub li {
