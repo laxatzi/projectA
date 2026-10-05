@@ -18,11 +18,13 @@
 // Open sub menu
 {
   const menuButton = document.querySelector(".menu-button");
+  //Starting from the button, .closest(".caret") travels upward through its parent elements until it finds the nearest element with the .caret class.
   const caretMenu = menuButton.closest(".caret");
 
   menuButton.addEventListener("click", () => {
+    // toggle .is-open class (set to visible in css)
     const isOpen = caretMenu.classList.toggle("is-open");
-
+    //Updates the button’s accessibility state
     menuButton.setAttribute("aria-expanded", isOpen);
   });
 }
