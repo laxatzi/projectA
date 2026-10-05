@@ -1,3 +1,6 @@
+// No JS fallback
+document.documentElement.classList.remove("no-js");
+document.documentElement.classList.add("js");
 // Toggle hamburger menu when responsive
 {
   const hamburger = document.getElementById("js--toggle-icon");
