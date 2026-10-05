@@ -652,11 +652,13 @@ li.nav-list__item {
   }
 }
 
-.contact a {
+.contact a,
+.hero-contact a {
   text-decoration: none;
 }
 
-.contact .button-resembling {
+.contact .button-resembling,
+.hero-contact .button-resembling {
   --ink: #181a22;
   --blue: #5279ec;
 
@@ -682,7 +684,8 @@ li.nav-list__item {
   transition: color 1s;
 }
 
-.contact .button-resembling::before {
+.contact .button-resembling::before,
+.hero-contact .button-resembling::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -691,41 +694,52 @@ li.nav-list__item {
 
   /* The blue fill grows from the left edge. */
   transform: scaleX(0);
-  transform-origin: left, center;
+
+  transform-origin: left center;
   transition: transform 180ms cubic-bezier(0.65, 0, 0.35, 1);
 }
 
 .contact .button-resembling:hover,
-.contact .button-resembling:focus-visible {
+.contact .button-resembling:focus-visible,
+.hero-contact .button-resembling:hover,
+.hero-contact .button-resembling:focus-visible {
   /* Change after the blue wipe has nearly completed. */
   color: #fff;
   transition: color 0s 150ms;
 }
 
 .contact .button-resembling:hover::before,
-.contact .button-resembling:focus-visible::before {
+.contact .button-resembling:focus-visible::before,
+.hero-contact .button-resembling:hover::before,
+.hero-contact .button-resembling:focus-visible::before {
   transform: scaleX(1);
 }
 
 .contact .button-resembling:hover svg,
-.contact .button-resembling:focus-visible svg {
+.contact .button-resembling:focus-visible svg,
+.hero-contact .button-resembling:hover svg,
+.hero-contact .button-resembling:focus-visible svg {
   color: #fff;
 }
 
-.contact .button-resembling:focus-visible {
+.contact .button-resembling:focus-visible,
+.hero-contact .button-resembling:focus-visible {
   outline: 2px solid var(--blue);
   outline-offset: 3px;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .contact .button-resembling,
-  .contact .button-resembling::before {
+  .contact .button-resembling::before,
+  .hero-contact .button-resembling,
+  .hero-contact .button-resembling::before {
     transition: none;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .contact .button-resembling {
+  .contact .button-resembling,
+  .hero-contact .button-resembling {
     padding-inline: calc(var(--space-xs) * 4);
     padding-top: calc(var(--space-xs) * 2);
     padding-bottom: calc(var(--space-xs) * 2);
@@ -733,7 +747,8 @@ li.nav-list__item {
 }
 
 @media screen and (max-width: 960px) {
-  .contact .button-resembling {
+  .contact .button-resembling,
+  .hero-contact .button-resembling {
     padding-inline: calc(var(--space-xs) * 2);
     padding-top: var(--space-sm);
     padding-bottom: var(--space-sm);
@@ -932,7 +947,7 @@ h3.hero-desc {
     flex: 2;
   }
 }
-
+/*
 .hero-contact a {
   text-decoration: none;
 }
@@ -959,7 +974,7 @@ h3.hero-desc {
   font: 600 14px/1 Arial, sans-serif;
   letter-spacing: 0.01em;
 
-  /* On mouse-out, return the text to dark with a slight delay. For no delay make it 0s */
+  /* On mouse-out, return the text to dark with a slight delay. For no delay make it 0s
   transition: color 1s;
 }
 
@@ -970,7 +985,7 @@ h3.hero-desc {
   inset: 0;
   background: var(--blue);
 
-  /* The blue fill grows from the left edge. */
+  /* The blue fill grows from the left edge.
   transform: scaleX(0);
   transform-origin: left, center;
   transition: transform 180ms cubic-bezier(0.65, 0, 0.35, 1);
@@ -978,7 +993,7 @@ h3.hero-desc {
 
 .hero-contact button:hover,
 .hero-contact button:focus-visible {
-  /* Change after the blue wipe has nearly completed. */
+  /* Change after the blue wipe has nearly completed.
   color: #fff;
   transition: color 0s 150ms;
 }
@@ -1027,7 +1042,7 @@ h3.hero-desc {
     padding-top: var(--space-sm);
     padding-bottom: var(--space-sm);
   }
-}
+} */
 
 .contact-btn__content {
   display: flex;
