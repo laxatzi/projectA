@@ -853,7 +853,7 @@ section {
 
 .nav-list__sub {
   display: flex;
-  visibility: hidden;
+
   list-style-type: none;
   padding: 0;
   position: absolute;
@@ -874,7 +874,17 @@ section {
   transform: translateY(-20%);
 }
 
-.nav-list__link.caret.is-open .nav-list__sub {
+/* No JavaScript: submenu remains available */
+.no-js .nav-list__sub {
+  visibility: visible;
+}
+
+/* JavaScript is available: use click-controlled submenu */
+.js .nav-list__sub {
+  visibility: hidden;
+}
+
+.js .caret.is-open .nav-list__sub {
   visibility: visible;
 }
 
