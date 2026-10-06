@@ -20,7 +20,7 @@ document.documentElement.classList.add("js");
 
 // Open sub menu
 {
-  const menuButton = document.querySelector(".menu-button");
+  const menuButton = document.querySelector(".js--menu-button");
   //Starting from the button, .closest(".caret") travels upward through its parent elements until it finds the nearest element with the .caret class.
   const caretMenu = menuButton.closest(".caret");
 
