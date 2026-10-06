@@ -991,3 +991,22 @@ h3.hero-desc {
     flex: 2;
   }
 }
+
+/* ##  FOOTER */
+.site-footer {
+  border: 1px solid orange;
+  background-color: var(--color-light);
+}
+
+.site-footer__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: var(--color-background-alt-dark);
+  margin-inline: calc(var(--space-xs) * 40);
+  background-color: inherit;
+}
+
+.footer-col-1,
+.footer-col-2 {
+  border: 1px solid yellow;
+}
