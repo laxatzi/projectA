@@ -1029,6 +1029,10 @@ h3.hero-desc {
   border: 1px solid yellow;
 }
 
+.social-icons {
+  display: flex;
+}
+
 .social-icon img {
   width: 48px;
   height: 48px;
