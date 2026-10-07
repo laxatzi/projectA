@@ -113,7 +113,7 @@ body {
   text-align: left;
   vertical-align: baseline;
   line-height: 1.5;
-  font-size: clamp(1.1rem, 2vw + 0.75rem, 1.75rem);
+  font-size: clamp(1rem, 1vw + 0.25rem, 1.45rem);
   background-color: var(--color-background);
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
@@ -1038,4 +1038,18 @@ h3.hero-desc {
 .social-icon img {
   width: 48px;
   height: 48px;
+}
+
+@media screen and (max-width: 760px) {
+  .social-icon img {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .social-icon img {
+    width: 24px;
+    height: 24px;
+  }
 }
