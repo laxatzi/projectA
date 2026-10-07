@@ -1031,6 +1031,8 @@ h3.hero-desc {
 
 .social-icons {
   display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .social-icon img {
