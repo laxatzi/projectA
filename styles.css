@@ -994,7 +994,7 @@ h3.hero-desc {
 
 /* ##  FOOTER */
 .site-footer {
-  background-color: var(--color-light);
+  background-color: var(--color);
   display: grid;
 }
 
@@ -1005,6 +1005,7 @@ h3.hero-desc {
   margin-inline: calc(var(--space-xs) * 40);
   background-color: inherit;
   border: 1px solid orange;
+  padding-top: 4rem;
 }
 
 @media screen and (max-width: 960px) {
@@ -1026,4 +1027,9 @@ h3.hero-desc {
 .footer-col-1,
 .footer-col-2 {
   border: 1px solid yellow;
+}
+
+.social-icon img {
+  width: 148px;
+  height: 148px;
 }
