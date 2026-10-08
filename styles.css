@@ -673,7 +673,8 @@ li.nav-list__item {
 }
 
 .contact .button-resembling,
-.hero-contact .button-resembling {
+.hero-contact .button-resembling,
+.email-address .button-resembling {
   --ink: #181a22;
   --blue: #5279ec;
 
@@ -797,6 +798,11 @@ li.nav-list__item {
     padding-top: var(--space-sm);
     padding-bottom: var(--space-sm);
   }
+}
+
+.email-address .button-resembling {
+  border: 1px solid var(--color-background-alt);
+  color: var(--color-background-alt-light);
 }
 
 .contact-btn__content {
