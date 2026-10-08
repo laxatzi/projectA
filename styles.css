@@ -143,7 +143,7 @@ h6 {
 }
 
 h1 {
-  font-size: clamp(2rem, 4.75vw, 5.15rem);
+  font-size: clamp(2.55rem, 4.75vw, 5.15rem);
   font-weight: 800;
   line-height: 1.15;
   letter-spacing: -0.05em;
@@ -307,6 +307,13 @@ section {
 @media screen and (max-width: 940px) {
   section {
     padding: 15px;
+    margin: 35px 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  section {
+    padding: 0;
     margin: 35px 0;
   }
 }
@@ -495,7 +502,7 @@ section:last-of-type {
 
 @media screen and (max-width: 550px) {
   .site-header {
-    margin-inline: calc(var(--space-xs) * 14);
+    margin-inline: calc(var(--space-xs) * 6);
   }
 }
 
@@ -784,6 +791,14 @@ li.nav-list__item {
   }
 }
 
+@media screen and (max-width: 550px) {
+  .hero-contact .button-resembling {
+    padding-inline: calc(var(--space-xs) * 15);
+    padding-top: var(--space-sm);
+    padding-bottom: var(--space-sm);
+  }
+}
+
 .contact-btn__content {
   display: flex;
   font-size: var(--bs-body-font-size);
@@ -833,7 +848,7 @@ main {
 
 @media screen and (max-width: 550px) {
   main {
-    margin-inline: calc(var(--space-xs) * 10);
+    margin-inline: calc(var(--space-xs) * 6);
   }
 }
 
@@ -936,6 +951,12 @@ section {
 @media screen and (max-width: 1284px) {
   .hero-span__wrapper {
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .hero-span__wrapper {
+    width: 60%;
   }
 }
 
