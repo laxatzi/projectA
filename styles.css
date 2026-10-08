@@ -700,7 +700,7 @@ li.nav-list__item {
   transition: color 1s;
 }
 
-.hero-contact .button-resembling {
+.hero-contact .button-resembling .email-address .button-resembling {
   margin-left: 0px;
   padding-inline: calc(var(--space-xs) * 20);
   color: var(--color-background);
@@ -708,7 +708,8 @@ li.nav-list__item {
 }
 
 .contact .button-resembling::before,
-.hero-contact .button-resembling::before {
+.hero-contact .button-resembling::before,
+.email-address .button-resembling::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -725,7 +726,8 @@ li.nav-list__item {
 .contact .button-resembling:hover,
 .contact .button-resembling:focus-visible,
 .hero-contact .button-resembling:hover,
-.hero-contact .button-resembling:focus-visible {
+.hero-contact .button-resembling:focus-visible,
+.email-address .button-resembling:before {
   /* Change after the blue wipe has nearly completed. */
   color: #fff;
   transition: color 0s 150ms;
@@ -734,19 +736,22 @@ li.nav-list__item {
 .contact .button-resembling:hover::before,
 .contact .button-resembling:focus-visible::before,
 .hero-contact .button-resembling:hover::before,
-.hero-contact .button-resembling:focus-visible::before {
+.hero-contact .button-resembling:focus-visible::before,
+.email-address .button-resembling:focus-visible::before {
   transform: scaleX(1);
 }
 
 .contact .button-resembling:hover svg,
 .contact .button-resembling:focus-visible svg,
 .hero-contact .button-resembling:hover svg,
-.hero-contact .button-resembling:focus-visible svg {
+.hero-contact .button-resembling:focus-visible svg,
+.email-address .button-resembling:focus-visible svg {
   color: #fff;
 }
 
 .contact .button-resembling:focus-visible,
-.hero-contact .button-resembling:focus-visible {
+.hero-contact .button-resembling:focus-visible,
+.email-address .button-resembling:focus-visible {
   outline: 2px solid var(--blue);
   outline-offset: 3px;
 }
@@ -755,7 +760,8 @@ li.nav-list__item {
   .contact .button-resembling,
   .contact .button-resembling::before,
   .hero-contact .button-resembling,
-  .hero-contact .button-resembling::before {
+  .hero-contact .button-resembling::before,
+  .email-address .button-resembling:focus-visible {
     transition: none;
   }
 }
@@ -769,10 +775,18 @@ li.nav-list__item {
 }
 
 @media screen and (max-width: 1200px) {
-  .hero-contact .button-resembling {
+  .hero-contact .button-resembling,
+  .email-address .button-resembling {
     padding-inline: calc(var(--space-xs) * 20);
     padding-top: var(--space-xs * 10);
     padding-bottom: var(--space-xs * 10);
+  }
+
+  .hero-contact .button-resembling {
+    padding-inline: calc(var(--space-xs) * 20);
+  }
+  .email-address .button-resembling {
+    padding-inline: calc(var(--space-xs) * 10);
   }
 }
 
@@ -785,24 +799,38 @@ li.nav-list__item {
 }
 
 @media screen and (max-width: 960px) {
-  .hero-contact .button-resembling {
+  .hero-contact .button-resembling,
+  .email-address .button-resembling {
     padding-inline: calc(var(--space-xs) * 15);
     padding-top: var(--space-sm);
     padding-bottom: var(--space-sm);
   }
 }
 
-@media screen and (max-width: 550px) {
-  .hero-contact .button-resembling {
-    padding-inline: calc(var(--space-xs) * 15);
+@media screen and (max-width: 760px) {
+  .hero-contact .button-resembling,
+  .email-address .button-resembling {
     padding-top: var(--space-sm);
     padding-bottom: var(--space-sm);
   }
+
+  .hero-contact .button-resembling {
+    padding-inline: calc(var(--space-xs) * 15);
+  }
+
+  .email-address .button-resembling {
+    padding-inline: calc(var(--space-xs) * 5);
+  }
+}
+
+.email-address {
+  margin-top: var(--space-m);
 }
 
 .email-address .button-resembling {
   border: 1px solid var(--color-background-alt);
   color: var(--color-background-alt-light);
+  max-width: 400px;
 }
 
 .contact-btn__content {
@@ -1059,6 +1087,8 @@ h3.hero-desc {
 .footer-col-1,
 .footer-col-2 {
   border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
 }
 
 .social-icons {
