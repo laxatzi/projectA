@@ -681,16 +681,12 @@ li.nav-list__item {
   position: relative;
   z-index: 0;
   display: inline-block;
-  margin-left: 0.4rem;
   vertical-align: middle;
-  padding-inline: calc(var(--space-xs) * 4);
   padding-top: var(--space-m);
   padding-bottom: var(--space-m);
   overflow: hidden;
   border: 1px solid var(--color);
   border-radius: var(--bs-border-radius-2xl);
-  color: var(--ink);
-  background: transparent;
   text-decoration: none;
   text-transform: uppercase;
   font: 600 14px/1 Arial, sans-serif;
@@ -700,11 +696,27 @@ li.nav-list__item {
   transition: color 1s;
 }
 
-.hero-contact .button-resembling .email-address .button-resembling {
+.contact .button-resembling {
+  color: var(--ink);
+  background: transparent;
+  margin-left: 0.4rem;
+  padding-inline: calc(var(--space-xs) * 4);
+}
+
+.hero-contact .button-resembling,
+.email-address .button-resembling {
   margin-left: 0px;
-  padding-inline: calc(var(--space-xs) * 20);
+
   color: var(--color-background);
   background: var(--ink);
+}
+
+.hero-contact .button-resembling {
+  padding-inline: calc(var(--space-xs) * 20);
+}
+
+.email-address .button-resembling {
+  padding-inline: calc(var(--space-xs) * 10);
 }
 
 .contact .button-resembling::before,
@@ -727,7 +739,8 @@ li.nav-list__item {
 .contact .button-resembling:focus-visible,
 .hero-contact .button-resembling:hover,
 .hero-contact .button-resembling:focus-visible,
-.email-address .button-resembling:before {
+.email-address .button-resembling:hover,
+.email-address .button-resembling:focus-visible {
   /* Change after the blue wipe has nearly completed. */
   color: #fff;
   transition: color 0s 150ms;
@@ -737,6 +750,7 @@ li.nav-list__item {
 .contact .button-resembling:focus-visible::before,
 .hero-contact .button-resembling:hover::before,
 .hero-contact .button-resembling:focus-visible::before,
+.email-address .button-resembling:hover::before,
 .email-address .button-resembling:focus-visible::before {
   transform: scaleX(1);
 }
@@ -745,6 +759,7 @@ li.nav-list__item {
 .contact .button-resembling:focus-visible svg,
 .hero-contact .button-resembling:hover svg,
 .hero-contact .button-resembling:focus-visible svg,
+.email-contact .button-resembling:hover svg,
 .email-address .button-resembling:focus-visible svg {
   color: #fff;
 }
@@ -761,7 +776,8 @@ li.nav-list__item {
   .contact .button-resembling::before,
   .hero-contact .button-resembling,
   .hero-contact .button-resembling::before,
-  .email-address .button-resembling:focus-visible {
+  .email-address .button-resembling,
+  .email-address .button-resembling:before {
     transition: none;
   }
 }
@@ -777,7 +793,6 @@ li.nav-list__item {
 @media screen and (max-width: 1200px) {
   .hero-contact .button-resembling,
   .email-address .button-resembling {
-    padding-inline: calc(var(--space-xs) * 20);
     padding-top: var(--space-xs * 10);
     padding-bottom: var(--space-xs * 10);
   }
