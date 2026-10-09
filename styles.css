@@ -721,7 +721,8 @@ li.nav-list__item {
 
 .contact .button-resembling::before,
 .hero-contact .button-resembling::before,
-.email-address .button-resembling::before {
+.email-address .button-resembling::before,
+.social-icon::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -740,7 +741,9 @@ li.nav-list__item {
 .hero-contact .button-resembling:hover,
 .hero-contact .button-resembling:focus-visible,
 .email-address .button-resembling:hover,
-.email-address .button-resembling:focus-visible {
+.email-address .button-resembling:focus-visible,
+.social-icon:focus-visible,
+.social-icon:hover {
   /* Change after the blue wipe has nearly completed. */
   color: #fff;
   transition: color 0s 150ms;
@@ -751,7 +754,9 @@ li.nav-list__item {
 .hero-contact .button-resembling:hover::before,
 .hero-contact .button-resembling:focus-visible::before,
 .email-address .button-resembling:hover::before,
-.email-address .button-resembling:focus-visible::before {
+.email-address .button-resembling:focus-visible::before,
+.social-icon:hover::before,
+.social-icon:focus-visible::before {
   transform: scaleX(1);
 }
 
@@ -766,7 +771,8 @@ li.nav-list__item {
 
 .contact .button-resembling:focus-visible,
 .hero-contact .button-resembling:focus-visible,
-.email-address .button-resembling:focus-visible {
+.email-address .button-resembling:focus-visible,
+.social-icon:focus-visible {
   outline: 2px solid var(--blue);
   outline-offset: 3px;
 }
@@ -777,7 +783,9 @@ li.nav-list__item {
   .hero-contact .button-resembling,
   .hero-contact .button-resembling::before,
   .email-address .button-resembling,
-  .email-address .button-resembling:before {
+  .email-address .button-resembling::before,
+  .social-icon,
+  .social-icon::before {
     transition: none;
   }
 }
