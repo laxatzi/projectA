@@ -814,8 +814,8 @@ li.nav-list__item {
 @media screen and (max-width: 1200px) {
   .hero-contact .button-resembling,
   .email-address .button-resembling {
-    padding-top: var(--space-xs * 10);
-    padding-bottom: var(--space-xs * 10);
+    padding-top: calc(var(--space-xs * 10));
+    padding-bottom: calc(var(--space-xs * 10));
   }
 
   .hero-contact .button-resembling {
