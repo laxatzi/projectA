@@ -729,7 +729,7 @@ li.nav-list__item {
 .contact .button-resembling::before,
 .hero-contact .button-resembling::before,
 .email-address .button-resembling::before,
-.social-icon__inner::before {
+.social-icon .social-icon__inner::before {
   content: "";
   position: absolute;
   z-index: -1;
