@@ -728,8 +728,7 @@ li.nav-list__item {
 
 .contact .button-resembling::before,
 .hero-contact .button-resembling::before,
-.email-address .button-resembling::before,
-.social-icon .social-icon__inner::before {
+.email-address .button-resembling::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -741,6 +740,12 @@ li.nav-list__item {
 
   transform-origin: left center;
   transition: transform 180ms cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.social-icon .social-icon__inner::before {
+  z-index: 1; /* above the img instead of behind it */
+  mix-blend-mode: multiply; /* tints the icon instead of hiding it*/
+  pointer-events: none;
 }
 
 .contact .button-resembling:hover,
@@ -771,7 +776,7 @@ li.nav-list__item {
 .contact .button-resembling:focus-visible svg,
 .hero-contact .button-resembling:hover svg,
 .hero-contact .button-resembling:focus-visible svg,
-.email-contact .button-resembling:hover svg,
+.email-address .button-resembling:hover svg,
 .email-address .button-resembling:focus-visible svg {
   color: #fff;
 }
