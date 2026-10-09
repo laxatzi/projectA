@@ -701,6 +701,7 @@ li.nav-list__item {
   --ink: #181a22;
   --blue: #5279ec;
   z-index: 0;
+  display: flex;
 }
 
 .contact .button-resembling {
@@ -1138,7 +1139,6 @@ h3.hero-desc {
 }
 
 .social-icon__inner {
-  border: 1px solid var(--color-background-alt);
   border-radius: var(--bs-border-radius);
 }
 
