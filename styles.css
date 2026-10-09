@@ -695,6 +695,13 @@ li.nav-list__item {
   /* On mouse-out, return the text to dark with a slight delay. For no delay make it 0s */
   transition: color 1s;
 }
+.social-icon .social-icon__inner {
+  position: relative;
+  overflow: hidden;
+  --ink: #181a22;
+  --blue: #5279ec;
+  z-index: 0;
+}
 
 .contact .button-resembling {
   color: var(--ink);
@@ -722,7 +729,7 @@ li.nav-list__item {
 .contact .button-resembling::before,
 .hero-contact .button-resembling::before,
 .email-address .button-resembling::before,
-.social-icon::before {
+.social-icon__inner::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -742,8 +749,8 @@ li.nav-list__item {
 .hero-contact .button-resembling:focus-visible,
 .email-address .button-resembling:hover,
 .email-address .button-resembling:focus-visible,
-.social-icon:focus-visible,
-.social-icon:hover {
+.social-icon__inner:focus-visible,
+.social-icon__inner:hover {
   /* Change after the blue wipe has nearly completed. */
   color: #fff;
   transition: color 0s 150ms;
@@ -755,8 +762,8 @@ li.nav-list__item {
 .hero-contact .button-resembling:focus-visible::before,
 .email-address .button-resembling:hover::before,
 .email-address .button-resembling:focus-visible::before,
-.social-icon:hover::before,
-.social-icon:focus-visible::before {
+.social-icon__inner:hover::before,
+.social-icon__inner:focus-visible::before {
   transform: scaleX(1);
 }
 
@@ -772,7 +779,7 @@ li.nav-list__item {
 .contact .button-resembling:focus-visible,
 .hero-contact .button-resembling:focus-visible,
 .email-address .button-resembling:focus-visible,
-.social-icon:focus-visible {
+.social-icon__inner:focus-visible {
   outline: 2px solid var(--blue);
   outline-offset: 3px;
 }
@@ -784,8 +791,8 @@ li.nav-list__item {
   .hero-contact .button-resembling::before,
   .email-address .button-resembling,
   .email-address .button-resembling::before,
-  .social-icon,
-  .social-icon::before {
+  .social-icon__inner,
+  .social-icon__inner::before {
     transition: none;
   }
 }
@@ -1121,6 +1128,11 @@ h3.hero-desc {
 .social-icon img {
   width: 36px;
   height: 36px;
+  border: 1px solid var(--color-background-alt);
+  border-radius: var(--bs-border-radius);
+}
+
+.social-icon__inner {
   border: 1px solid var(--color-background-alt);
   border-radius: var(--bs-border-radius);
 }
