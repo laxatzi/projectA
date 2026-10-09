@@ -1074,7 +1074,6 @@ h3.hero-desc {
   color: var(--color-background-alt-dark);
   margin-inline: calc(var(--space-xs) * 40);
   background-color: inherit;
-  border: 1px solid orange;
   padding-top: 4rem;
 }
 
@@ -1101,7 +1100,6 @@ h3.hero-desc {
 
 .footer-col-1,
 .footer-col-2 {
-  border: 1px solid yellow;
   display: flex;
   flex-direction: column;
 }
@@ -1115,6 +1113,8 @@ h3.hero-desc {
 .social-icon img {
   width: 36px;
   height: 36px;
+  border: 1px solid var(--color-background-alt);
+  border-radius: var(--bs-border-radius);
 }
 
 @media screen and (max-width: 760px) {
