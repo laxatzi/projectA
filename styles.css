@@ -1132,3 +1132,12 @@ h3.hero-desc {
     height: 24px;
   }
 }
+
+.site-footer__contact {
+  padding-bottom: 50px;
+  border-bottom: 1px dotted var(--color-background-alt);
+}
+
+h3.address {
+  color: var(--color-background-alt);
+}
