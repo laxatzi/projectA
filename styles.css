@@ -1103,6 +1103,9 @@ h3.hero-desc {
 .footer-col-1,
 .footer-col-2 {
   display: flex;
+}
+
+.footer-col-1 {
   flex-direction: column;
 }
 
@@ -1158,4 +1161,9 @@ h4.services {
 
 .address-subcol p {
   margin-bottom: 10px;
+}
+
+.footer-col__general,
+.footer-col__services {
+  flex: 1;
 }
