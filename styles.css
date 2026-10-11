@@ -1104,7 +1104,6 @@ h3.hero-desc {
 .footer-col-2 {
   display: flex;
   flex-direction: column;
-  border: 1px solid yellow;
 }
 
 .social-icons {
@@ -1136,10 +1135,10 @@ h3.hero-desc {
 
 .site-footer__contact {
   padding-bottom: 50px;
-  border-bottom: 1px dotted var(--color-background-alt);
+  border-bottom: 1px dotted var(--color-background-alt-dark);
   border-image: linear-gradient(
       to right,
-      var(--color-background-alt) 70%,
+      var(--color-background-alt-dark) 70%,
       transparent 30%
     )
     1;
@@ -1152,5 +1151,5 @@ h3.hero-desc {
 }
 
 h3.address {
-  color: var(--color-background-alt);
+  color: var(--color-background);
 }
