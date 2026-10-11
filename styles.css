@@ -1150,7 +1150,9 @@ h3.hero-desc {
   padding-top: 30px;
 }
 
-h3.address {
+h3.address,
+h3.general,
+h3.services {
   color: var(--color-background);
 }
 
