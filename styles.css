@@ -1167,3 +1167,11 @@ h4.services {
 .footer-col__services {
   flex: 1;
 }
+
+a.footer-col__gen-link {
+  color: white;
+  font-size: var(--bs-body-font-size-small);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-background-alt-dark);
+}
