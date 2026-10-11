@@ -1151,8 +1151,8 @@ h3.hero-desc {
 }
 
 h3.address,
-h3.general,
-h3.services {
+h4.general,
+h4.services {
   color: var(--color-background);
 }
 
