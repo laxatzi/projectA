@@ -1153,3 +1153,7 @@ h3.hero-desc {
 h3.address {
   color: var(--color-background);
 }
+
+.address-subcol p {
+  margin-bottom: 10px;
+}
