@@ -1182,3 +1182,7 @@ a.footer-col__gen-link {
 a.footer-col__gen-link:last-of-type {
   margin-bottom: none;
 }
+
+.footer-col__gen-link svg {
+  vertical-align: sub;
+}
