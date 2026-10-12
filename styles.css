@@ -1186,3 +1186,8 @@ a.footer-col__gen-link:last-of-type {
 .footer-col__gen-link svg {
   vertical-align: sub;
 }
+
+a.footer-col__gen-link:hover {
+  text-decoration: underline;
+  color: var(--color-background-alt-light);
+}
