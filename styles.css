@@ -248,6 +248,7 @@ a {
   font-weight: 500;
   color: var(--color);
   text-decoration-skip-ink: none;
+  font-size: var(--bs-body-font-size-large);
 }
 
 a:hover,
@@ -657,7 +658,6 @@ li.nav-list__item {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1;
 }
 
 @media screen and (max-width: 960px) {
