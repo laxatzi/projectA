@@ -1176,4 +1176,9 @@ a.footer-col__gen-link {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--color-background-alt-dark);
+  margin-bottom: 10px;
+}
+
+a.footer-col__gen-link:last-of-type {
+  margin-bottom: none;
 }
