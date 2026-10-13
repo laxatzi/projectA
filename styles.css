@@ -510,6 +510,7 @@ section:last-of-type {
 .site-header__nav {
   display: flex;
   justify-content: space-between;
+  height: 4rem;
 }
 
 .nav-list {
@@ -562,9 +563,9 @@ section:last-of-type {
 .nav-list__wrapper {
   flex: 2;
   display: flex;
-  align-items: flex-end;
   justify-content: center;
 }
+
 @media screen and (max-width: 960px) {
   .nav-list__wrapper {
     flex: 1;
@@ -701,6 +702,7 @@ li.nav-list__item {
   background: transparent;
   margin-left: 0.4rem;
   padding-inline: calc(var(--space-xs) * 4);
+  vertical-align: sub;
 }
 
 .hero-contact .button-resembling,
@@ -918,6 +920,7 @@ section {
     cursor: pointer;
     background-color: var(--color-background);
     border: none;
+    align-items: center;
   }
 }
 
