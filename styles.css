@@ -1239,3 +1239,12 @@ a.footer-col__gen-link {
 .footer-col__gen-link:focus-visible .arrow-svg__head {
   transform: translateX(0);
 }
+
+.footer-logo {
+  color: white;
+}
+
+.footer-logo img {
+  width: 100%;
+  max-width: 400px;
+}
