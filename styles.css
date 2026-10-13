@@ -1011,6 +1011,7 @@ section {
   display: inline-block;
   width: 50%;
   max-width: 400px;
+  position: relative;
 }
 
 @media screen and (max-width: 1284px) {
@@ -1042,16 +1043,17 @@ section {
 /* ping animating */
 .hero-dot {
   position: absolute;
-  left: 50%;
+  left: 5%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
 .ping {
   background: var(--color-main);
   border-radius: 50%;
-  border: 50px solid var(--color-main-light);
-  width: 20px;
-  height: 20px;
+  border: 5px solid var(--color-main);
+  width: 7px;
+  height: 7px;
   animation: load 1.5s ease-out infinite;
 }
 
@@ -1062,11 +1064,11 @@ section {
   }
   50% {
     background: var(--color-main);
-    border: 100px solid var(--color-main-light);
+    border: 3px solid var(--color-background-alt);
   }
   100% {
     background: var(--color-main);
-    border: 0px solid var(--color-main-light);
+    border: 0px solid var(--color-main);
   }
 }
 
