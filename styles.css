@@ -1109,7 +1109,7 @@ h3.hero-desc {
   flex-direction: column;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   .footer-col-2 {
     flex-direction: column;
   }
