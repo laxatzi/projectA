@@ -31,3 +31,10 @@ document.documentElement.classList.add("js");
     menuButton.setAttribute("aria-expanded", isOpen);
   });
 }
+
+// Date
+{
+  var date = new Date().getFullYear();
+
+  document.getElementById("js--year").innerHTML = date;
+}
