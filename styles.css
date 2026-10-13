@@ -1109,6 +1109,16 @@ h3.hero-desc {
   flex-direction: column;
 }
 
+@media screen and (max-width: 1200px) {
+  .footer-col-2 {
+    flex-direction: column;
+  }
+
+  .footer-col__general {
+    margin-top: 1rem;
+  }
+}
+
 .social-icons {
   display: flex;
   align-items: center;
@@ -1240,11 +1250,11 @@ a.footer-col__gen-link {
   transform: translateX(0);
 }
 
-.footer-logo {
-  color: white;
-}
-
 .footer-logo img {
   width: 100%;
   max-width: 400px;
+}
+
+.footer-copyright {
+  margin-bottom: 1rem;
 }
