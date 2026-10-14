@@ -632,6 +632,7 @@ li.nav-list__item {
   justify-content: center;
   align-items: center;
 }
+
 @media screen and (max-width: 960px) {
   .nav-list__link {
     padding: 10px;
@@ -1010,7 +1011,7 @@ section {
   border-radius: var(--bs-border-radius-2xl);
   display: inline-block;
   width: 50%;
-  max-width: 400px;
+  max-width: 350px;
   position: relative;
 }
 
