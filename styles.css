@@ -544,6 +544,7 @@ section:last-of-type {
     left: 0;
     width: 100%;
     background-color: var(--color-background);
+    z-index: 99;
   }
 
   .nav-list.active {
