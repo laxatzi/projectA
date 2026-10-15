@@ -992,6 +992,10 @@ section {
   border: none;
 }
 
+.menu-button:hover {
+  color: var(--color-main-light);
+}
+
 .nav-list__sub li {
   padding: 10px;
   display: inline-flex;
