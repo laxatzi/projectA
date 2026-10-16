@@ -1142,7 +1142,7 @@ h3.hero-desc {
   .site-footer__inner {
     grid-template-columns: 1fr;
     margin-inline: calc(var(--space-xs) * 20);
-    padding: 10px 3%;
+    padding: 2rem 3%;
   }
 }
 
