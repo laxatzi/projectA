@@ -1187,12 +1187,15 @@ h3.hero-desc {
   gap: 20px;
 }
 
-.social-icon {
+.social-icon,
+.back-to-top {
   --icon-animation: icon-shake;
 }
 
 .social-icon__link:hover .social-icon-image,
-.social-icon__link:focus-visible .social-icon-image {
+.social-icon__link:focus-visible .social-icon-image,
+.back-to-top:hover .back-to-top-image,
+.back-to-top:focus-visible .back-to-top-image {
   animation: var(--icon-animation) 600ms ease-in-out;
 }
 
