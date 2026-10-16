@@ -491,9 +491,6 @@ section:last-of-type {
 }
 
 @media screen and (max-width: 950px) {
-  /* .site-header {
-    padding-inline: calc(var(--space-xs) * 28);
-  } */
   .site-header {
     padding-inline: 0;
     margin-inline: calc(var(--space-xs) * 35);
