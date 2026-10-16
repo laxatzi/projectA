@@ -1187,6 +1187,102 @@ h3.hero-desc {
   gap: 20px;
 }
 
+.social-icon {
+  --icon-animation: icon-shake;
+}
+
+.social-icon__link:hover .social-icon-image,
+.social-icon__link:focus-visible .social-icon-image {
+  animation: var(--icon-animation) 600ms ease-in-out;
+}
+
+/* Animation choices */
+@keyframes icon-wiggle {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(-12deg) scale(1.08);
+  }
+  50% {
+    transform: rotate(12deg) scale(1.08);
+  }
+  75% {
+    transform: rotate(-7deg);
+  }
+}
+
+@keyframes icon-pop {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(1.22);
+  }
+  70% {
+    transform: scale(0.94);
+  }
+}
+
+@keyframes icon-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes icon-flutter {
+  0%,
+  100% {
+    transform: rotate(0) scale(1);
+  }
+  30% {
+    transform: rotate(-10deg) scale(1.08);
+  }
+  60% {
+    transform: rotate(10deg) scale(1.08);
+  }
+}
+
+@keyframes icon-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(2px);
+  }
+  75% {
+    transform: translateX(-2px);
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .social-icon-image {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .social-icon-image {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/* Respect motion-accessibility preferences */
+@media (prefers-reduced-motion: reduce) {
+  .social-icon__link:hover .social-icon-image,
+  .social-icon__link:focus-visible .social-icon-image {
+    animation: none;
+  }
+}
+
 .social-icon img {
   width: 36px;
   height: 36px;
