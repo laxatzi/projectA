@@ -1416,3 +1416,20 @@ a.footer-col__gen-link {
 .footer-copyright {
   margin-bottom: 1rem;
 }
+
+/* ---------------------------------------
+ # CARD SECTION
+----------------------------------------- */
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: calc(var(--space-sm) * 4);
+}
+
+.card {
+  width: 100%;
+  max-width: 35rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-background-alt-light);
+}
