@@ -1422,6 +1422,16 @@ a.footer-col__gen-link {
   transform: translateX(0);
 }
 
+/* Default: short arrow */
+.arrow-svg__lineArrow {
+  transform: rotate(-45deg);
+  /* transform-origin: left center; */
+}
+
+.arrow-svg__headArrow {
+  transform: rotate(-45deg);
+}
+
 .footer-logo img {
   width: 100%;
   max-width: 400px;
@@ -1485,8 +1495,4 @@ a.footer-col__gen-link {
 
 .card:hover .card-arrow {
   display: flex;
-}
-
-.arrow .card-arrow .arrow-svg svg {
-  border: 1px solid red;
 }
