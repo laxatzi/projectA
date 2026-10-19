@@ -1338,13 +1338,22 @@ h4.services {
   flex-direction: column;
 }
 
-a.footer-col__gen-link {
+a.footer-col__gen-link,
+a.services__seeHow-link {
   color: white;
   font-size: var(--bs-body-font-size-small);
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--color-background-alt-dark);
   margin-bottom: 10px;
+}
+
+a.footer-col__gen-link {
+  color: var(--color-background-alt-dark);
+}
+
+a.services__seeHow-link {
+  color: var(--color);
+  font-weight: var(--bs-body-font-weight-bolder);
 }
 
 a.footer-col__gen-link:last-of-type {
@@ -1445,4 +1454,13 @@ a.footer-col__gen-link {
   font-weight: var(--bs-body-font-weight-bold);
   color: var(--color-lighter);
   font-size: 1rem;
+}
+
+.seeHow {
+  display: flex;
+  align-items: center;
+}
+
+.seeHow svg {
+  vertical-align: -3px;
 }
