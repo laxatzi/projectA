@@ -17,7 +17,7 @@
   --color-main: #5077ee;
   --color-main-light: #7f9ff3;
   --color-background-alt: #c2c9cc;
-  --color-background-alt-light: hsl(220, 20%, 97.06%);
+  --color-background-alt-light: hsl(240, 24%, 94.06%);
   --color-background-alt-dark: #9ba3a8;
   --color-distinct: #eec750;
   /* - Typography Variables */
@@ -1444,7 +1444,7 @@ a.footer-col__gen-link {
   width: 100%;
   max-width: 35rem;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 2fr 1fr;
   background-color: var(--color-background-alt-light);
   padding: calc(var(--space-sm) * 3);
   border: 1px solid transparent;
