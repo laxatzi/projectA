@@ -1432,4 +1432,17 @@ a.footer-col__gen-link {
   display: flex;
   flex-direction: column;
   background-color: var(--color-background-alt-light);
+  padding: calc(var(--space-sm) * 3);
+  border: 1px solid transparent;
+  border-radius: var(--bs-border-radius-xl);
+}
+
+.card h4 {
+  font-weight: var(--bs-body-font-weight-bold);
+}
+
+.card p {
+  font-weight: var(--bs-body-font-weight-bold);
+  color: var(--color-lighter);
+  font-size: 1rem;
 }
