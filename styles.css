@@ -1375,10 +1375,6 @@ a.services__seeHow-link:hover {
 }
 
 a.footer-col__gen-link {
-  font-size: var(--bs-body-font-size-small);
-  text-decoration: none;
-  text-transform: uppercase;
-  color: var(--color-background-alt-dark);
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
@@ -1413,12 +1409,16 @@ a.footer-col__gen-link {
 
 /* Expanded arrow */
 .footer-col__gen-link:hover .arrow-svg__line,
-.footer-col__gen-link:focus-visible .arrow-svg__line {
+.footer-col__gen-link:focus-visible .arrow-svg__line,
+.services__seeHow-link:hover .arrow-svg__line,
+.services__seeHow-link:focus-visible .arrow-svg__line {
   transform: scaleX(1);
 }
 
 .footer-col__gen-link:hover .arrow-svg__head,
-.footer-col__gen-link:focus-visible .arrow-svg__head {
+.footer-col__gen-link:focus-visible .arrow-svg__head,
+.services__seeHow-link:hover .arrow-svg_-line,
+.services__seeHow-link:focus-visible .arrow-svg__line {
   transform: translateX(0);
 }
 
