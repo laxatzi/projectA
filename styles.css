@@ -1417,8 +1417,8 @@ a.footer-col__gen-link {
 
 .footer-col__gen-link:hover .arrow-svg__head,
 .footer-col__gen-link:focus-visible .arrow-svg__head,
-.services__seeHow-link:hover .arrow-svg_-line,
-.services__seeHow-link:focus-visible .arrow-svg__line {
+.services__seeHow-link:hover .arrow-svg__head,
+.services__seeHow-link:focus-visible .arrow-svg__head {
   transform: translateX(0);
 }
 
