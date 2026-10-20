@@ -151,6 +151,10 @@ h1 {
 }
 
 h2 {
+  font-weight: 800;
+}
+
+h2 {
   font-size: clamp(1.5rem, 2.45vw + 1rem, 2.65rem);
 }
 
@@ -224,11 +228,11 @@ p:last-of-type {
 }
 
 ::-moz-selection {
-  background-color: var(--color-distinct);
+  background-color: var(--color-main-light);
 }
 
 ::selection {
-  background-color: var(--color-distinct);
+  background-color: var(--color-main-light);
 }
 
 h4 + p {
