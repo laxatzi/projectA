@@ -1084,6 +1084,10 @@ main {
   color: var(--color-main);
 }
 
+.white-text {
+  color: var(--color-background);
+}
+
 .hero-desc {
   color: var(--color-lighter);
 }
@@ -1552,7 +1556,7 @@ a.footer-col__gen-link {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid #966ed9;
+  border: 2px solid var(--color-main-light);
   margin: 10px;
 }
 
@@ -1567,11 +1571,11 @@ a.footer-col__gen-link {
   font-size: 15px;
   font-weight: 500;
   line-height: 1.4;
-  opacity: 70%;
+  opacity: 80%;
 }
 
 .testimonial__card--bg-purple {
-  background: hsl(263, 55%, 52%);
+  background: var(--color-main);
   color: #fff;
   background-image: url("./images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
@@ -1579,12 +1583,12 @@ a.footer-col__gen-link {
 }
 
 .testimonial__card--bg-gray-blue {
-  background: hsl(217, 19%, 32%);
+  background: var(--color-light);
   color: #fff;
 }
 
 .testimonial__card--bg-black-blue {
-  background: hsl(217, 29%, 14%);
+  background: var(--color-main-dark);
   color: #fff;
 }
 
