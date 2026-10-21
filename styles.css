@@ -1550,6 +1550,16 @@ a.footer-col__gen-link {
 
 .testimonial__card__header p {
   opacity: 50%;
+  font-size: 1rem;
+}
+
+.testimonial__card__header p a {
+  color: var(--color-main-dark);
+  font-size: 1rem;
+}
+
+.testimonial__card__header p a.white-text {
+  color: var(--color-background);
 }
 
 .testimonial__card__img {
