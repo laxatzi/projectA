@@ -1518,7 +1518,7 @@ a.footer-col__gen-link {
 
 .testimonials {
   max-width: 1240px;
-  margin: 100px auto;
+  margin: 50px auto;
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
