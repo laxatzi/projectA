@@ -1539,9 +1539,9 @@ a.footer-col__gen-link {
 }
 
 .testimonial__card__header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+  display: grid;
+  grid-template: 2 / 1;
+  margin: 10px auto 30px;
 }
 
 .testimonial__card__header h3 {
@@ -1550,12 +1550,13 @@ a.footer-col__gen-link {
 
 .testimonial__card__header p {
   opacity: 50%;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  margin-bottom: none;
 }
 
 .testimonial__card__header p a {
   color: var(--color-main-dark);
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .testimonial__card__header p a.white-text {
