@@ -1551,7 +1551,7 @@ a.footer-col__gen-link {
 .testimonial__card__header p {
   opacity: 50%;
   font-size: 0.8rem;
-  margin-bottom: none;
+  margin-bottom: 0;
 }
 
 .testimonial__card__header p a {
@@ -1627,7 +1627,7 @@ footer {
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .testimonials {
     width: 100%;
     grid-template-columns: 1fr;
