@@ -1255,13 +1255,13 @@ h3.hero-desc {
     transform: translateX(0);
   }
   25% {
-    transform: translateX(-2px);
+    transform: translateX(-1px);
   }
   50% {
-    transform: translateX(2px);
+    transform: translateX(1px);
   }
   75% {
-    transform: translateX(-2px);
+    transform: translateX(-1px);
   }
 }
 
@@ -1547,7 +1547,8 @@ a.footer-col__gen-link {
 .card:hover,
 .social-icon__link:focus-visible,
 .card:focus-visible {
-  animation: var(--icon-animation) 700ms ease-in-out;
+  animation: var(--icon-animation) 900ms ease-in-out;
+  box-shadow: 0 4px 16px var(--color-main-light);
 }
 
 .testimonial__card__header {
