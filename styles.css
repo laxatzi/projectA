@@ -1538,13 +1538,16 @@ a.footer-col__gen-link {
   margin-bottom: 10px;
 }
 
-.testimonial__card {
+.testimonial__card,
+.card {
   --icon-animation: icon-shake;
 }
 
 .testimonial__card:hover,
-.social-icon__link:focus-visible {
-  animation: var(--icon-animation) 600ms ease-in-out;
+.card:hover,
+.social-icon__link:focus-visible,
+.card:focus-visible {
+  animation: var(--icon-animation) 700ms ease-in-out;
 }
 
 .testimonial__card__header {
