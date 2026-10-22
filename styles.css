@@ -1598,8 +1598,8 @@ a.footer-col__gen-link {
   color: #fff;
 }
 
-.testimonial__card--bg-black-blue {
-  background: var(--color-main-dark);
+.testimonial__card--bg-light-blue {
+  background: var(--color-main-light);
   color: #fff;
 }
 
