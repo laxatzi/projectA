@@ -1260,9 +1260,6 @@ h3.hero-desc {
   50% {
     transform: translateX(1px);
   }
-  75% {
-    transform: translateX(-1px);
-  }
 }
 
 @media screen and (max-width: 760px) {
