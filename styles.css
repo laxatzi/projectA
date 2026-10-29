@@ -1545,7 +1545,7 @@ a.footer-col__gen-link {
 .social-icon__link:focus-visible,
 .card:focus-visible {
   animation: var(--icon-animation) 900ms ease-in-out;
-  box-shadow: 0 4px 16px var(--color-main-light);
+  box-shadow: 0 4px 16px var(--color-background-alt-dark);
 }
 
 .testimonial__card__header {
