@@ -1767,3 +1767,19 @@ footer {
   width: 320px;
   height: 320px;
 }
+
+.header__dec {
+  text-transform: uppercase;
+  font-size: var(--bs-body-font-size-smaller);
+  color: var(--color-background-alt-dark);
+  font-weight: var(--bs-body-font-weight-bold);
+  letter-spacing: 0.1rem;
+}
+
+.span-dash {
+  width: 1rem;
+  background-color: var(--color-main);
+  height: 1px;
+  display: inline-block;
+  vertical-align: middle;
+}
