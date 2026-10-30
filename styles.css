@@ -1689,3 +1689,7 @@ footer {
   list-style-type: none;
   margin-bottom: 1.5rem;
 }
+
+.featured__services--inner li h4 {
+  font-weight: var(--bs-body-font-weight-bold);
+}
