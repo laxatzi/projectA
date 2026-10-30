@@ -1680,3 +1680,12 @@ footer {
 .featured__services--inner {
   margin-top: 60px;
 }
+
+.featured__services--inner a {
+  text-decoration: none;
+}
+
+.featured__services--inner li {
+  list-style-type: none;
+  margin-bottom: 1.5rem;
+}
