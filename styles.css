@@ -1751,3 +1751,19 @@ footer {
 .featured__services--inner li p {
   font-weight: var(--bs-body-font-weight);
 }
+
+.featured__services--image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 20px;
+  gap: 5px;
+}
+
+.featured__image-wrapper1 img {
+  width: 320px;
+  height: 250px;
+}
+.featured__image-wrapper2 img {
+  width: 320px;
+  height: 320px;
+}
