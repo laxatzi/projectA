@@ -1513,10 +1513,6 @@ a.footer-col__gen-link {
  # TESTIMONIALS SECTION
 ----------------------------------------- */
 
-#testimonials h2 {
-  text-align: center;
-}
-
 .testimonials {
   max-width: 1240px;
   margin: 50px auto;
@@ -1694,7 +1690,7 @@ footer {
 @media screen and (max-width: 1200px) {
   .featured__services--inner {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
   }
 
   .featured__services--image {
@@ -1790,6 +1786,39 @@ footer {
 .featured__image-wrapper2 img {
   width: 320px;
   height: 320px;
+}
+
+@media screen and (max-width: 1400px) {
+  .featured__image-wrapper1 img {
+    width: 240px;
+    height: 160px;
+  }
+  .featured__image-wrapper2 img {
+    width: 240px;
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .featured__image-wrapper1 img {
+    width: 320px;
+    height: 250px;
+  }
+  .featured__image-wrapper2 img {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .featured__image-wrapper1 img {
+    width: 500px;
+    height: 400px;
+  }
+  .featured__image-wrapper2 img {
+    width: 500px;
+    height: 500px;
+  }
 }
 
 .header__dec {
