@@ -307,6 +307,7 @@ section {
   margin: 40px 0;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  border: 1px solid blue;
 }
 
 @media screen and (max-width: 940px) {
@@ -899,6 +900,7 @@ li.nav-list__item {
 
 main {
   margin-inline: calc(var(--space-xs) * 40);
+  border: 1px solid red;
 }
 
 @media screen and (max-width: 960px) {
