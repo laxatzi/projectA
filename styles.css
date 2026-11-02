@@ -1866,9 +1866,6 @@ footer {
   grid-template-rows: 1fr;
 }
 
-.why_us--box {
-}
-
 .why_us--wrapper {
   margin-top: 5rem;
   display: grid;
@@ -1877,9 +1874,29 @@ footer {
   gap: 30px;
 }
 
+@media screen and (max-width: 1000px) {
+  .why_us--wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
 .why_us--box img {
   width: 100%;
   height: 100%;
   max-width: 80px;
   max-height: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .why_us--box img {
+    max-width: 70px;
+    max-height: 70px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .why_us--box img {
+    max-width: 60px;
+    max-height: 60px;
+  }
 }
