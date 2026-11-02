@@ -1629,10 +1629,6 @@ a.footer-col__gen-link {
   height: auto;
 }
 
-footer {
-  text-align: center;
-}
-
 @media screen and (max-width: 1200px) {
   .testimonials {
     width: 100%;
