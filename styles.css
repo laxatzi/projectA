@@ -1936,3 +1936,11 @@ a.footer-col__gen-link {
   font-weight: var(--bs-body-font-weight-bold);
   text-transform: capitalize;
 }
+
+.case-studies--wrapper a {
+  text-decoration: none;
+}
+
+.case-studies--wrapper a:hover {
+  text-decoration: none;
+}
