@@ -1908,7 +1908,15 @@ a.footer-col__gen-link {
 }
 
 .case-studies--inner {
-  margin-top: 60px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+}
+
+.case-studies--wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 5rem;
 }
