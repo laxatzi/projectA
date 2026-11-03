@@ -1896,3 +1896,19 @@ a.footer-col__gen-link {
     max-height: 60px;
   }
 }
+
+/*  ---------------------------------------------------
+  # WHY US
+---------------------------------------------------------*/
+
+.case-studies {
+  max-width: 1240px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.case-studies--inner {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
