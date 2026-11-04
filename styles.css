@@ -1670,6 +1670,9 @@ a.footer-col__gen-link {
 .companies {
   max-width: 1240px;
   margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .companies img {
   width: 100%;
