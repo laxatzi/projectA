@@ -1701,11 +1701,18 @@ a.footer-col__gen-link {
 @media screen and (max-width: 800px) {
   .companies img {
     max-width: 100px;
-    max-height: 65px;
   }
-
-@media screen and (max-width: 550px) {
-
+}
+@media screen and (max-width: 650px) {
+  .companies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .companies img {
+    max-width: 150px;
+    max-height: 80px;
+  }
 }
 
 /*  ---------------------------------------------------
