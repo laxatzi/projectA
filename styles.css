@@ -690,7 +690,8 @@ li.nav-list__item {
 
 .contact .button-resembling,
 .hero-contact .button-resembling,
-.email-address .button-resembling {
+.email-address .button-resembling,
+.case-studies .button-resembling {
   --ink: #181a22;
   --blue: #5279ec;
 
@@ -732,13 +733,15 @@ li.nav-list__item {
   padding-inline: calc(var(--space-xs) * 20);
 }
 
-.email-address .button-resembling {
+.email-address .button-resembling,
+.case-studies .button-resembling {
   padding-inline: calc(var(--space-xs) * 10);
 }
 
 .contact .button-resembling::before,
 .hero-contact .button-resembling::before,
-.email-address .button-resembling::before {
+.email-address .button-resembling::before,
+.case-studies .button-resembling::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -759,7 +762,9 @@ li.nav-list__item {
 .email-address .button-resembling:hover,
 .email-address .button-resembling:focus-visible,
 .social-icon__inner:focus-visible,
-.social-icon__inner:hover {
+.social-icon__inner:hover,
+.case-studies .button-resembling:hover,
+.case-studies .button-resembling:focus-visible {
   /* Change after the blue wipe has nearly completed. */
   color: #fff;
   transition: color 0s 150ms;
@@ -770,7 +775,9 @@ li.nav-list__item {
 .hero-contact .button-resembling:hover::before,
 .hero-contact .button-resembling:focus-visible::before,
 .email-address .button-resembling:hover::before,
-.email-address .button-resembling:focus-visible::before {
+.email-address .button-resembling:focus-visible::before,
+.case-studies .button-resembling:hover::before,
+.case-studies .button-resembling:focus-visible::before {
   transform: scaleX(1);
 }
 
@@ -785,7 +792,8 @@ li.nav-list__item {
 
 .contact .button-resembling:focus-visible,
 .hero-contact .button-resembling:focus-visible,
-.email-address .button-resembling:focus-visible {
+.email-address .button-resembling:focus-visible,
+.case-studies .button-resembling:focus-visible {
   outline: 2px solid var(--blue);
   outline-offset: 3px;
 }
@@ -796,7 +804,9 @@ li.nav-list__item {
   .hero-contact .button-resembling,
   .hero-contact .button-resembling::before,
   .email-address .button-resembling,
-  .email-address .button-resembling::before {
+  .email-address .button-resembling::before,
+  .case-studies .button-resembling,
+  .case-studies .button-resembling::before {
     transition: none;
   }
 }
