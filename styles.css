@@ -1958,6 +1958,7 @@ a.footer-col__gen-link {
   .case-studies--wrapper {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+    margin: 5rem auto 5px;
   }
 }
 
