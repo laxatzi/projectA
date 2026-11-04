@@ -1936,14 +1936,14 @@ a.footer-col__gen-link {
   max-width: 1240px;
   margin: 50px auto;
   padding: 20px;
-  padding-bottom: 170px;
+  padding-bottom: 100px;
 }
 
 .case-studies--inner {
   margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 2fr;
+  grid-template-rows: 1fr;
 }
 
 .case-studies--wrapper {
@@ -1952,6 +1952,13 @@ a.footer-col__gen-link {
   grid-template-rows: 1fr;
   margin-top: 5rem;
   gap: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .case-studies--wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }
 
 .case-studies--wrapper img {
