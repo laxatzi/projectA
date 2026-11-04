@@ -1984,3 +1984,7 @@ a.footer-col__gen-link {
 .case-studies--wrapper a:hover {
   text-decoration: none;
 }
+
+.case-studies-box {
+  margin-bottom: 4rem;
+}
