@@ -2045,6 +2045,9 @@ a.footer-col__gen-link {
   margin: 1rem 0 0;
 }
 
+/*  ---------------------------------------------------
+  # CONTACT FORM
+---------------------------------------------------------*/
 .bg-contact-grid {
   background-image: linear-gradient(
       to right,
@@ -2055,4 +2058,67 @@ a.footer-col__gen-link {
   background-size: 58px 58px;
   -webkit-mask-image: radial-gradient(78% 62% at 28% 18%, #000 35%, #0000 100%);
   mask-image: radial-gradient(78% 62% at 28% 18%, #000 35%, #0000 100%);
+}
+
+.contact-form {
+  width: 90vw;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+label {
+  margin-bottom: 15px;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+}
+
+input::placeholder {
+  opacity: 0;
+}
+
+span {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  transform: translateY(30px);
+  font-size: 0.925em;
+  transition-duration: 300ms;
+}
+
+button {
+  padding: 15px 0px;
+  margin-top: 20px;
+  background: purple;
+  color: #fff;
+  border: 1px solid purple;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+label:focus-within > span,
+input:not(:placeholder-shown) + span {
+  color: purple;
+  transform: translateY(0px);
+}
+
+.register {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: calc(var(--space-sm) * 6);
+  border: 1px solid red;
+  padding-inline: calc(var(--space-sm) * 20);
 }
