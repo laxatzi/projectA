@@ -84,6 +84,8 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
     });
 
+    //restores the original state
+
     card.addEventListener("pointerleave", () => {
       card.style.transform = "";
     });
