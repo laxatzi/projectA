@@ -2022,7 +2022,7 @@ a.footer-col__gen-link {
 
 .case-study-media {
   overflow: hidden;
-  border-radius: var(--bs-border-radius-2xl); 
+  border-radius: var(--bs-border-radius-2xl);
   box-shadow: 0 12px 28px rgb(0 0 0 / 12%);
   transform-style: preserve-3d;
   transition: transform 180ms ease-out, box-shadow 180ms ease-out;
@@ -2043,4 +2043,16 @@ a.footer-col__gen-link {
 
 .case-study-link h5 {
   margin: 1rem 0 0;
+}
+
+.bg-contact-grid {
+  background-image: linear-gradient(
+      to right,
+      var(--hero-grid-line) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, var(--hero-grid-line) 1px, transparent 1px);
+  background-size: 58px 58px;
+  -webkit-mask-image: radial-gradient(78% 62% at 28% 18%, #000 35%, #0000 100%);
+  mask-image: radial-gradient(78% 62% at 28% 18%, #000 35%, #0000 100%);
 }
