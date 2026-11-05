@@ -70,5 +70,24 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  // Case study images animation
+  document.querySelectorAll(".case-study-media").forEach((card) => {
+    card.addEventListener("pointermove", (event) => {
+      const bounds = card.getBoundingClientRect();
+      const x = (event.clientX - bounds.left) / bounds.width - 0.5;
+      const y = (event.clientY - bounds.top) / bounds.height - 0.5;
+
+      card.style.transform = `
+      rotateX(${-y * 10}deg)
+      rotateY(${x * 12}deg)
+      translateZ(18px)
+    `;
+    });
+
+    card.addEventListener("pointerleave", () => {
+      card.style.transform = "";
+    });
+  });
+
   // end of DOM load
 });
