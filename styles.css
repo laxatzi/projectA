@@ -2067,7 +2067,7 @@ a.footer-col__gen-link {
   padding: 3vw;
   display: flex;
   flex-direction: column;
-  border-radius: 5px;
+  border-radius: var(--bs-border-radius);
   background-color: var(--color-background-alt-light);
 }
 
@@ -2099,19 +2099,9 @@ span.form-span {
   transition-duration: 300ms;
 }
 
-button {
-  padding: 15px 0px;
-  margin-top: 20px;
-  background: purple;
-  color: #fff;
-  border: 1px solid purple;
-  cursor: pointer;
-  border-radius: 3px;
-}
-
 label:focus-within > span,
 input:not(:placeholder-shown) + span {
-  color: purple;
+  color: var(--color-main);
   transform: translateY(0px);
 }
 
@@ -2120,13 +2110,19 @@ input:not(:placeholder-shown) + span {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   gap: calc(var(--space-sm) * 6);
-  border: 1px solid red;
   padding-inline: calc(var(--space-sm) * 20);
   color: var(--color);
+  padding-top: 90px;
+  margin-top: 100px;
 }
 
 .register button {
   background-color: var(--color-main);
   border: 1px solid var(--color-main);
   font-size: var(--bs-body-font-size-large);
+  padding: 15px 0px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: var(--bs-border-radius-xl);
+  color: var(--color-background);
 }
