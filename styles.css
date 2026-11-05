@@ -2009,6 +2009,41 @@ a.footer-col__gen-link {
   text-decoration: none;
 }
 
+.case-studies--wrapper a:hover img {
+}
+
 .case-studies-box {
   margin-bottom: 4rem;
+  perspective: 1100px;
+}
+
+.case-study-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.case-study-media {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 12px 28px rgb(0 0 0 / 12%);
+  transform-style: preserve-3d;
+  transition: transform 180ms ease-out, box-shadow 180ms ease-out;
+  will-change: transform;
+}
+
+.case-study-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1.02);
+  transition: transform 350ms ease;
+}
+
+.case-study-link:hover img {
+  transform: scale(1.08);
+}
+
+.case-study-link h5 {
+  margin: 1rem 0 0;
 }
