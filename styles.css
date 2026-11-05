@@ -2063,33 +2063,34 @@ a.footer-col__gen-link {
 .contact-form {
   width: 90vw;
   max-width: 600px;
-  border: 1px solid var(--color-background);
+  border: 1px solid var(--color-background-alt-light);
   padding: 3vw;
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  background-color: var(--color-background);
+  background-color: var(--color-background-alt-light);
 }
 
 label {
   margin-bottom: 15px;
   position: relative;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--color-background-alt);
 }
 
 input {
   width: 100%;
-  padding: 10px;
+  padding: calc(var(--space-sm) * 1.5);
   margin-top: 20px;
   border: none;
   outline: none;
+  background-color: transparent;
 }
 
 input::placeholder {
   opacity: 0;
 }
 
-span {
+span.form-span {
   position: absolute;
   top: 0;
   left: 10px;
@@ -2121,4 +2122,11 @@ input:not(:placeholder-shown) + span {
   gap: calc(var(--space-sm) * 6);
   border: 1px solid red;
   padding-inline: calc(var(--space-sm) * 20);
+  color: var(--color);
+}
+
+.register button {
+  background-color: var(--color-main);
+  border: 1px solid var(--color-main);
+  font-size: var(--bs-body-font-size-large);
 }
