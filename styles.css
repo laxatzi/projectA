@@ -2009,9 +2009,6 @@ a.footer-col__gen-link {
   text-decoration: none;
 }
 
-.case-studies--wrapper a:hover img {
-}
-
 .case-studies-box {
   margin-bottom: 4rem;
   perspective: 1100px;
@@ -2025,7 +2022,7 @@ a.footer-col__gen-link {
 
 .case-study-media {
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: var(--bs-border-radius-2xl); 
   box-shadow: 0 12px 28px rgb(0 0 0 / 12%);
   transform-style: preserve-3d;
   transition: transform 180ms ease-out, box-shadow 180ms ease-out;
