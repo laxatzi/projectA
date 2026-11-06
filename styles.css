@@ -2127,8 +2127,18 @@ input:not(:placeholder-shown) + span {
   color: var(--color-background);
 }
 
+.contact-us-list {
+  margin-top: 30px;
+}
+
 .contact-us-list li {
   list-style-type: none;
+  font-size: clamp(1rem, 1vw + 0.75rem, 1.15rem);
+  margin-bottom: 15px;
+}
+
+.contact-us-list li:last-of-type {
+  margin-bottom: 0;
 }
 
 span.span-tick {
