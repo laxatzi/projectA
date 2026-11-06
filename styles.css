@@ -2142,7 +2142,8 @@ input:not(:placeholder-shown) + span {
 }
 
 span.span-tick {
-  border-radius: 2147483647px;
   background-color: var(--color-background-dark);
   margin-right: 0.5rem;
+  width: calc(var(--space-xs) * 5);
+  height: calc(var(--space-xs) * 5);
 }
