@@ -2126,3 +2126,13 @@ input:not(:placeholder-shown) + span {
   border-radius: var(--bs-border-radius-xl);
   color: var(--color-background);
 }
+
+.contact-us-list li {
+  list-style-type: none;
+}
+
+span.span-tick {
+  border-radius: 2147483647px;
+  background-color: var(--color-background-dark);
+  margin-right: 0.5rem;
+}
