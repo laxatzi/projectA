@@ -2145,6 +2145,7 @@ input:not(:placeholder-shown) + span {
   .register {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    padding-inline: calc(var(--space-sm) * 2);
   }
 }
 
