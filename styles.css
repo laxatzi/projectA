@@ -2071,6 +2071,19 @@ a.footer-col__gen-link {
   background-color: var(--color-background-alt-light);
 }
 
+@media screen and (max-width: 1750px) {
+  .contact-form {
+    width: 90vw;
+    max-width: 600px;
+    border: 1px solid var(--color-background-alt-light);
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--bs-border-radius);
+    background-color: var(--color-background-alt-light);
+  }
+}
+
 label {
   margin-bottom: 15px;
   position: relative;
@@ -2125,6 +2138,13 @@ input:not(:placeholder-shown) + span {
   cursor: pointer;
   border-radius: var(--bs-border-radius-xl);
   color: var(--color-background);
+}
+
+@media screen and (max-width: 1500px) {
+  .register {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
 }
 
 .contact-us-list {
