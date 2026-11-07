@@ -2073,14 +2073,15 @@ a.footer-col__gen-link {
 
 @media screen and (max-width: 1750px) {
   .contact-form {
+    width: 70vw;
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .contact-form {
     width: 90vw;
     max-width: 600px;
-    border: 1px solid var(--color-background-alt-light);
-    padding: 3vw;
-    display: flex;
-    flex-direction: column;
-    border-radius: var(--bs-border-radius);
-    background-color: var(--color-background-alt-light);
   }
 }
 
