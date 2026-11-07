@@ -2069,6 +2069,7 @@ a.footer-col__gen-link {
   flex-direction: column;
   border-radius: var(--bs-border-radius);
   background-color: var(--color-background-alt-light);
+  box-shadow: 0 4px 4px rgb(0 0 0 / 8%);
 }
 
 @media screen and (max-width: 1750px) {
