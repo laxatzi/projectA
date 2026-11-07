@@ -244,8 +244,8 @@ p {
 }
 
 small {
-  font-size: clamp(0.75rem, 1vw + 0.25rem, 0.95rem);
-  font-weight: 800;
+  font-size: clamp(0.85rem, 0.55vw + 0.25rem, 0.9rem);
+  font-weight: 400;
 }
 
 a {
@@ -2083,6 +2083,15 @@ a.footer-col__gen-link {
     width: 90vw;
     max-width: 600px;
   }
+}
+
+.contact-form--button {
+  margin-bottom: 0.6rem;
+}
+
+.contact-form--button + small {
+  color: var(--color-lighter);
+  text-align: center;
 }
 
 label {
