@@ -2088,6 +2088,9 @@ a.footer-col__gen-link {
 
 .contact-form--button {
   margin-bottom: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-form--button + small {
