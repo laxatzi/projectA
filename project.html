@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Larus Web Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      document.documentElement.classList.remove("no-js");
+      document.documentElement.classList.add("js");
+    </script>
+    <script
+      src="https://kit.fontawesome.com/84413299ac.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="noto-sans-medium">
+    <button
+        id="top-button"
+        class="back-to-top"
+        type="button"
+        title="Back to Top"
+        aria-label="Back to top"
+        aria-hidden="true"
+        hidden
+    >
+        <img src="img/up-arrow-svgrepo-com-white.svg" alt="" class="back-to-top-image">
+        <p>Top</p>
+    </button>
+        <header class="site-header">
+      <nav class="site-header__nav">
+        <div class="nav-logo"><a href="index.html"><img src="img/larus-white.png" alt="company logo"></a></div>
+        <div class="nav-list__wrapper">
+          <div class="nav-list__void"></div>
+          <button
+            class="toggle-icons"
+            id="js--toggle-icon"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-controls="js--nav-list"
+            aria-expanded="false"
+          >
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+
+          <ul class="nav-list" id="js--nav-list">
+            <li class="nav-list__item">
+              <div class="nav-list__link caret">
+                <button
+                  class="js--menu-button menu-button noto-sans-medium"
+                  aria-expanded="false"
+                  aria-controls="services-submenu"
+                >
+                  Services <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <ul class="nav-list__sub" id="services-submenu">
+                  <li class="nav-list__item">
+                    <div class="nav-list__link"><a href="#">Design</a></div>
+                  </li>
+                  <li class="nav-list__item">
+                    <div class="nav-list__link">
+                      <a href="#">Development</a>
+                    </div>
+                  </li>
+                  <li class="nav-list__item">
+                    <div class="nav-list__link">
+                      <a href="#">Maintenance</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-list__item">
+              <div class="nav-list__link"><a href="portfolio.html">Portfolio</a></div>
+            </li>
+            <li class="nav-list__item">
+              <div class="nav-list__link"><a href="#">Blog</a></div>
+            </li>
+            <li class="nav-list__item">
+              <div class="nav-list__link"><a href="#">About</a></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact">
+          <a href="#">
+            <div class="button-resembling">
+              <span class="contact-btn__content noto-sans-medium"
+                >Contact Us
+                <div class="contact-btn__svg" aria-hidden="true">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="18px"
+                    viewBox="48 -912 864 864"
+                    width="18px"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M630-444H192v-72h438L429-717l51-51 288 288-288 288-51-51 201-201Z"
+                    />
+                  </svg>
+                </div>
+              </span>
+            </div>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="wide">
+        <header>
+         <div class="breadcrumb">
+          <a href="portfolio.html">Portfolio</a>
+         </div>
+          <h1>Baristart -- a WordPress modern site</h1>
+        </header>
+
+
+
+
+
+  </div>
+  </main>
+    <footer class="site-footer" id="site-footer">
+      <div class="site-footer__inner">
+        <!-- footer col 1 -->
+        <div class="footer-col-1">
+          <div class="site-footer__contact">
+            <!-- social icons -->
+            <div class="social-icons">
+              <div class="social-icon">
+                <a href="https://facebook.com" class="social-icon__link">
+                  <div class="social-icon__inner">
+                    <img
+                      src="img/fb-small-48.png"
+                      alt="facebook icon"
+                      class="social-icon-image"
+                    />
+                  </div>
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="https://youtube.com" class="social-icon__link">
+                  <div class="social-icon__inner">
+                    <img
+                      src="img/YTicon-small-48.png"
+                      alt="youtube icon"
+                      class="social-icon-image"
+                    />
+                  </div>
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="https://linkedin.com" class="social-icon__link">
+                  <div class="social-icon__inner">
+                    <img
+                      src="img/linkedin-small-48.png"
+                      alt="linkedin icon"
+                      class="social-icon-image"
+                    />
+                  </div>
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="https://instagram.com" class="social-icon__link">
+                  <div class="social-icon__inner">
+                    <img
+                      src="img/instagram-small-48.png"
+                      alt="instagram icon"
+                      class="social-icon-image"
+                    />
+                  </div>
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="https://x.com" class="social-icon__link">
+                  <div class="social-icon__inner">
+                    <img
+                      src="img/x-small-48.png"
+                      alt="x icon"
+                      class="social-icon-image"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- email address -->
+            <div class="email-address phone-number">
+              <a href="#">
+                <div class="button-resembling">
+                  <span class="contact-btn__content noto-sans-medium"
+                    >info@website.com
+                    <div class="contact-btn__svg" aria-hidden="true">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="18px"
+                        viewBox="48 -912 864 864"
+                        width="18px"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M630-444H192v-72h438L429-717l51-51 288 288-288 288-51-51 201-201Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="email-address">
+              <a href="#">
+                <div class="button-resembling">
+                  <span class="contact-btn__content noto-sans-medium"
+                    >+30 (234) 167-9694
+                    <div class="contact-btn__svg" aria-hidden="true">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="18px"
+                        viewBox="48 -912 864 864"
+                        width="18px"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M630-444H192v-72h438L429-717l51-51 288 288-288 288-51-51 201-201Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="address-subcol">
+            <h3 class="address">Address</h3>
+
+            <p>Mikra Asias 89</p>
+            <p>Thessaloniki</p>
+            <p>Greece</p>
+            <p>zip: 57010</p>
+          </div>
+          <!--END OF footer col 1 -->
+        </div>
+
+        <div class="footer-col-2">
+          <div class="footer-col__services">
+            <h4 class="services">Services</h4>
+            <a href="" class="footer-col__gen-link"
+              >WordPress Theme Development
+
+              <svg class="arrow-svg" viewBox="0 0 30 16" aria-hidden="true">
+                <!-- Use two SVG paths: animate the shaft’s horizontal scale, and translate the arrowhead to its end. -->
+                <path class="arrow-svg__line" d="M1 8H24" />
+                <path class="arrow-svg__head" d="M19 3L24 8L19 13" />
+              </svg>
+                <path
+                  d="M630-444H192v-72h438L429-717l51-51 288 288-288 288-51-51 201-201Z"
+                /></svg
+            ></a>
+            <a href="" class="footer-col__gen-link"
+              >Custom WordPress Solutions
+
+                   <svg class="arrow-svg" viewBox="0 0 30 16" aria-hidden="true">
+                <!-- Use two SVG paths: animate the shaft’s horizontal scale, and translate the arrowhead to its end. -->
+                <path class="arrow-svg__line" d="M1 8H24" />
+                <path class="arrow-svg__head" d="M19 3L24 8L19 13" />
+              </svg>
+                <path
+                  d="M630-444H192v-72h438L429-717l51-51 288 288-288 288-51-51 201-201Z"
+                /></svg
+            ></a>
+            <a href="" class="footer-col__gen-link"
+              >WordPress Web Design (UI/UX)
+
+                      <svg class="arrow-svg" viewBox="0 0 30 16" aria-hidden="true">
+                <!-- Use two SVG paths: animate the shaft’s horizontal scale, and translate the arrowhead to its end. -->
+                <path class="arrow-svg__line" d="M1 8H24" />
+                <path class="arrow-svg__head" d="M19 3L24 8L19 13" />
+              </svg>
+                <path
+                  d="M630-444H192v-72h438L429-717l51-51 288 288-288 288-51-51 201-201Z"
+                /></svg
+            ></a>
+            <a href="" class="footer-col__gen-link"
+              >WordPress Consulting
+
+                      <svg class="arrow-svg" viewBox="0 0 30 16" aria-hidden="true">
+                <!-- Use two SVG paths: animate the shaft’s horizontal scale, and translate the arrowhead to its end. -->
+                <path class="arrow-svg__line" d="M1 8H24" />
+                <path class="arrow-svg__head" d="M19 3L24 8L19 13" />
+              </svg>
+                <path
+                  d="M630-444H192v-72h438L429-717l51-51 288 288-288 288-51-51 201-201Z"
+                /></svg
+            ></a>
+            <a href="" class="footer-col__gen-link"
+              >WordPress Migration
+
+                        <svg class="arrow-svg" viewBox="0 0 30 16" aria-hidden="true">
+                <!-- Use two SVG paths: animate the shaft’s horizontal scale, and translate the arrowhead to its end. -->
+                <path class="arrow-svg__line" d="M1 8H24" />
+                <path class="arrow-svg__head" d="M19 3L24 8L19 13" />
+              </svg>
+                <path
+                  d="M630-444H192v-72h438L429-717l51-51 288 288-288 288-51-51 201-201Z"
+                /></svg
+            ></a>
+            <a href="" class="footer-col__gen-link"
+              >WordPress Maintenance
+              <svg class="arrow-svg" viewBox="0 0 30 16" aria-hidden="true">
+                <!-- Use two SVG paths: animate the shaft’s horizontal scale, and translate the arrowhead to its end. -->
+                <path class="arrow-svg__line" d="M1 8H24" />
+                <path class="arrow-svg__head" d="M19 3L24 8L19 13" />
+              </svg>
+                <path
+                  d="M630-444H192v-72h438L429-717l51-51 288 288-288 288-51-51 201-201Z"
+                /></svg
+            ></a>
+            <a href="" class="footer-col__gen-link"
+              >Plugin Development
+
+                      <svg class="arrow-svg" viewBox="0 0 30 16" aria-hidden="true">
+                <!-- Use two SVG paths: animate the shaft’s horizontal scale, and translate the arrowhead to its end. -->
+                <path class="arrow-svg__line" d="M1 8H24" />
+                <path class="arrow-svg__head" d="M19 3L24 8L19 13" />
+              </svg>
+                <path
+                  d="M630-444H192v-72h438L429-717l51-51 288 288-288 288-51-51 201-201Z"
+                /></svg
+            ></a>
+                        <a href="" class="footer-col__gen-link"
+              >WordPress Customization
+              <svg class="arrow-svg" viewBox="0 0 30 16" aria-hidden="true">
+                <!-- Use two SVG paths: animate the shaft’s horizontal scale, and translate the arrowhead to its end. -->
+                <path class="arrow-svg__line" d="M1 8H24" />
+                <path class="arrow-svg__head" d="M19 3L24 8L19 13" />
+              </svg>
+                <path
+                  d="M630-444H192v-72h438L429-717l51-51 288 288-288 288-51-51 201-201Z"
+                /></svg
+            ></a>
+
+          </div>
+          <div class="footer-col__general">
+            <h4 class="general">General</h4>
+
+            <a href="/portfolio" class="footer-col__gen-link">
+              Portfolio
+
+              <svg class="arrow-svg" viewBox="0 0 30 16" aria-hidden="true">
+                <!-- Use two SVG paths: animate the shaft’s horizontal scale, and translate the arrowhead to its end. -->
+                <path class="arrow-svg__line" d="M1 8H24" />
+                <path class="arrow-svg__head" d="M19 3L24 8L19 13" />
+              </svg>
+            </a>
+            <a href="" class="footer-col__gen-link"
+              >About
+
+              <svg class="arrow-svg" viewBox="0 0 30 16" aria-hidden="true">
+                <!-- Use two SVG paths: animate the shaft’s horizontal scale, and translate the arrowhead to its end. -->
+                <path class="arrow-svg__line" d="M1 8H24" />
+                <path class="arrow-svg__head" d="M19 3L24 8L19 13" />
+              </svg>
+            </a>
+            <a href="" class="footer-col__gen-link"
+              >Blog
+
+              <svg class="arrow-svg" viewBox="0 0 30 16" aria-hidden="true">
+                <!-- Use two SVG paths: animate the shaft’s horizontal scale, and translate the arrowhead to its end. -->
+                <path class="arrow-svg__line" d="M1 8H24" />
+                <path class="arrow-svg__head" d="M19 3L24 8L19 13" /></svg
+            ></a>
+            <a href="" class="footer-col__gen-link"
+              >Technologies
+
+              <svg class="arrow-svg" viewBox="0 0 30 16" aria-hidden="true">
+                <!-- Use two SVG paths: animate the shaft’s horizontal scale, and translate the arrowhead to its end. -->
+                <path class="arrow-svg__line" d="M1 8H24" />
+                <path class="arrow-svg__head" d="M19 3L24 8L19 13" /></svg
+            ></a>
+            <a href="" class="footer-col__gen-link"
+              >Contact
+
+              <svg class="arrow-svg" viewBox="0 0 30 16" aria-hidden="true">
+                <!-- Use two SVG paths: animate the shaft’s horizontal scale, and translate the arrowhead to its end. -->
+                <path class="arrow-svg__line" d="M1 8H24" />
+                <path class="arrow-svg__head" d="M19 3L24 8L19 13" />
+              </svg>
+            </a>
+            <a href="" class="footer-col__gen-link"
+              >Privacy Policy
+
+              <svg class="arrow-svg" viewBox="0 0 30 16" aria-hidden="true">
+                <!-- Use two SVG paths: animate the shaft’s horizontal scale, and translate the arrowhead to its end. -->
+                <path class="arrow-svg__line" d="M1 8H24" />
+                <path class="arrow-svg__head" d="M19 3L24 8L19 13" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="footer-logo">
+<img src="img/larus-transparent.png" alt="company logo">
+           </div>
+            <p>&copy; <span id="js--year"></span> Larus Web | All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+Challenge
+Baristart, a well-known café and bar in Thessaloniki, Greece, partnered with us to redesign and build its WordPress website. We focused on a fast launch, a scalable setup, and straightforward maintenance. We aimed at make it easier to find products, create a simplified navigation, and to use animations to capture the energy of the business.
+
+Result
+The website design was taken and upgraded to a new and modernized design that the client loves. Information is easier to find on the website than before for anyone curious about what self-storage units are available. And with an improved backend, they can update their site without risking it breaking.
