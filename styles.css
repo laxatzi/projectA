@@ -2224,6 +2224,7 @@ p.header-moto {
   margin-top: 2.65rem;
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .tag {
@@ -2231,7 +2232,6 @@ p.header-moto {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
 }
 
 .button-resembling.current {
