@@ -28,5 +28,6 @@
     "titleBar.inactiveForeground": "#15202b99",
     "statusBar.inactiveBackground": "#d69eac"
   },
-  "peacock.color": "#d69eac"
+  "peacock.color": "#d69eac",
+  "cSpell.words": ["Larus"]
 }
