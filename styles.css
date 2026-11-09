@@ -1406,6 +1406,7 @@ a.footer-col__gen-link {
   stroke-linecap: round;
   stroke-linejoin: round;
   overflow: visible;
+  margin-left: 5px;
 }
 
 .arrow-svg__line,
@@ -1431,10 +1432,20 @@ a.footer-col__gen-link {
   transform: scaleX(1);
 }
 
+.contact-form--button:hover .arrow-svg__line,
+.contact-form--button:focus-visible .arrow-svg__line {
+  transform: scaleX(1);
+}
+
 .footer-col__gen-link:hover .arrow-svg__head,
 .footer-col__gen-link:focus-visible .arrow-svg__head,
 .services__seeHow-link:hover .arrow-svg__head,
 .services__seeHow-link:focus-visible .arrow-svg__head {
+  transform: translateX(0);
+}
+
+.contact-form--button:hover .arrow-svg__head,
+.contact-form--button:focus-visible .arrow-svg__head {
   transform: translateX(0);
 }
 
