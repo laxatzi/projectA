@@ -2198,3 +2198,11 @@ span.span-tick {
   justify-content: center;
   align-items: center;
 }
+
+/* ---------------------------------------
+ ## PORTFOLIO PAGE
+----------------------------------------- */
+
+p.header-moto {
+  margin: 3rem 0 75px 2rem;
+}
