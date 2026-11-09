@@ -652,7 +652,7 @@ li.nav-list__item {
 .nav-list__link a,
 .nav-list__link button {
   text-decoration: none;
-  font-size: var(--bs-body-font-size);
+  /* font-size: var(--bs-body-font-size-large); */
 }
 
 @media screen and (max-width: 1284px) {
