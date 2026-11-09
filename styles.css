@@ -2238,3 +2238,7 @@ p.header-moto {
   background-color: var(--color-light);
   color: var(--color-background);
 }
+
+.case-studies-box[hidden] {
+  display: none;
+}
