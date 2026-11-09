@@ -91,5 +91,30 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  // FILTER BUTTONS
+
+  const filterButtons = document.querySelectorAll(".tags [data-filter]");
+  const caseStudies = document.querySelectorAll(".case-studies-box");
+
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const selectedCategory = button.dataset.filter;
+
+      filterButtons.forEach((filterButton) => {
+        filterButton.classList.remove("current");
+      });
+
+      button.classList.add("current");
+
+      caseStudies.forEach((caseStudy) => {
+        const category = caseStudy.dataset.category;
+        const shouldShow =
+          selectedCategory === "all" || category === selectedCategory;
+
+        caseStudy.hidden = !shouldShow;
+      });
+    });
+  });
+
   // end of DOM load
 });
