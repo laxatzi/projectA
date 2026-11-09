@@ -2222,4 +2222,6 @@ p.header-moto {
 
 .tags {
   margin-top: 2.65rem;
+  display: flex;
+  align-items: center;
 }
