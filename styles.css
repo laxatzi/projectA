@@ -1975,7 +1975,8 @@ a.footer-col__gen-link {
   # Case Studies
 ---------------------------------------------------------*/
 
-.case-studies {
+.case-studies,
+.blog {
   max-width: 1240px;
   margin: 50px auto;
   padding: 20px;
