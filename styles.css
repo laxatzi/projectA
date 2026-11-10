@@ -1982,7 +1982,8 @@ a.footer-col__gen-link {
   padding-bottom: 100px;
 }
 
-.case-studies--inner {
+.case-studies--inner,
+.blog--inner {
   margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr;
@@ -2319,4 +2320,11 @@ p.header-moto {
 
 .next-prev a:hover h2 {
   color: var(--color-background-alt-light);
+}
+
+/* ---------------------------------------
+ ## BLOG
+----------------------------------------- */
+.blog-posts--wrapper {
+  margin: 3rem 0;
 }
