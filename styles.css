@@ -1104,6 +1104,14 @@ li.nav-list__item {
   color: var(--color-background);
 }
 
+.bold-weight {
+  font-weight: var(--bs-body-font-weight-bold);
+}
+
+.bolder-weight {
+  font-weight: var(--bs-body-font-weight-bolder);
+}
+
 .hero-desc {
   color: var(--color-lighter);
 }
@@ -2293,4 +2301,22 @@ p.header-moto {
   max-height: 800px;
   transform: scale(1.02);
   transition: transform 1000ms ease;
+}
+
+.next-prev {
+  background-color: var(--color-main);
+  padding: calc(var(--space-sm) * 1.5);
+  margin-bottom: 2rem;
+}
+
+.next-prev a {
+  text-decoration: none;
+}
+
+.next-prev a h2 {
+  font-size: 2rem;
+}
+
+.next-prev a:hover h2 {
+  color: var(--color-background-alt-light);
 }
