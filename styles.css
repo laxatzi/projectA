@@ -1964,7 +1964,7 @@ a.footer-col__gen-link {
 }
 
 /*  ---------------------------------------------------
-  # WHY US
+  # Case Studies
 ---------------------------------------------------------*/
 
 .case-studies {
@@ -2241,4 +2241,56 @@ p.header-moto {
 
 .case-studies-box[hidden] {
   display: none;
+}
+
+/* ---------------------------------------
+ ## Single PAGE
+----------------------------------------- */
+
+.page-body {
+  max-width: 1280px;
+  margin: 120px 0;
+}
+
+.page-body > header {
+  margin-bottom: 4rem;
+}
+
+.page-body > header > h1 {
+  font-size: calc(2rem + 1vw);
+}
+
+.page-body > h3 {
+  font-weight: var(--bs-body-font-weight-bold);
+}
+
+.breadcrumb {
+  margin-bottom: 2rem;
+}
+.breadcrumb a {
+  font-size: var(--bs-font-size-large);
+}
+
+.page-image:hover img {
+  transform: scale(1.08);
+}
+
+.page-image {
+  margin-bottom: 3rem;
+  overflow: hidden;
+  border-radius: var(--bs-border-radius-2xl);
+  box-shadow: 0 12px 28px rgb(0 0 0 / 12%);
+  transform-style: preserve-3d;
+  transition: transform 1000ms ease-out, box-shadow 1000ms ease-out;
+  will-change: transform;
+}
+
+.page-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 1400px;
+  max-height: 800px;
+  transform: scale(1.02);
+  transition: transform 1000ms ease;
 }
