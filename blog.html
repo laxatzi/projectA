@@ -22,6 +22,100 @@
 
     <link rel="stylesheet" href="styles.css" />
   </head>
+   <body class="noto-sans-medium">
+    <button
+        id="top-button"
+        class="back-to-top"
+        type="button"
+        title="Back to Top"
+        aria-label="Back to top"
+        aria-hidden="true"
+        hidden
+    >
+        <img src="img/up-arrow-svgrepo-com-white.svg" alt="" class="back-to-top-image">
+        <p>Top</p>
+    </button>
+
+            <header class="site-header">
+      <nav class="site-header__nav">
+        <div class="nav-logo"><a href="index.html"><img src="img/larus-white.png" alt="company logo"></a></div>
+        <div class="nav-list__wrapper">
+          <div class="nav-list__void"></div>
+          <button
+            class="toggle-icons"
+            id="js--toggle-icon"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-controls="js--nav-list"
+            aria-expanded="false"
+          >
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+
+          <ul class="nav-list" id="js--nav-list">
+            <li class="nav-list__item">
+              <div class="nav-list__link caret">
+                <button
+                  class="js--menu-button menu-button noto-sans-medium"
+                  aria-expanded="false"
+                  aria-controls="services-submenu"
+                >
+                  Services <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <ul class="nav-list__sub" id="services-submenu">
+                  <li class="nav-list__item">
+                    <div class="nav-list__link"><a href="#">Design</a></div>
+                  </li>
+                  <li class="nav-list__item">
+                    <div class="nav-list__link">
+                      <a href="#">Development</a>
+                    </div>
+                  </li>
+                  <li class="nav-list__item">
+                    <div class="nav-list__link">
+                      <a href="#">Maintenance</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-list__item">
+              <div class="nav-list__link"><a href="portfolio.html">Portfolio</a></div>
+            </li>
+            <li class="nav-list__item">
+              <div class="nav-list__link"><a href="#">Blog</a></div>
+            </li>
+            <li class="nav-list__item">
+              <div class="nav-list__link"><a href="#">About</a></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact">
+          <a href="#">
+            <div class="button-resembling">
+              <span class="contact-btn__content noto-sans-medium"
+                >Contact Us
+                <div class="contact-btn__svg" aria-hidden="true">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="18px"
+                    viewBox="48 -912 864 864"
+                    width="18px"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M630-444H192v-72h438L429-717l51-51 288 288-288 288-51-51 201-201Z"
+                    />
+                  </svg>
+                </div>
+              </span>
+            </div>
+          </a>
+        </div>
+      </nav>
+    </header>
+    </body>
   <footer class="site-footer" id="site-footer">
       <div class="site-footer__inner">
         <!-- footer col 1 -->
