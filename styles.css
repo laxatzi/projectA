@@ -2335,6 +2335,14 @@ p.header-moto {
   border-bottom: 1px solid var(--color-background-alt);
 }
 
+.the-blog-post a {
+  text-decoration: none;
+}
+
+.the-blog-post a:hover p {
+  color: var(--color);
+}
+
 .the-blog-post:last-of-type {
   margin-bottom: none;
   border-bottom: 1px solid transparent;
