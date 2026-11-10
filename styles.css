@@ -2314,7 +2314,7 @@ p.header-moto {
 }
 
 .next-prev a h2 {
-  font-size: 2rem;
+  font-size: calc(1.25rem + 1vw);
 }
 
 .next-prev a:hover h2 {
