@@ -2371,3 +2371,9 @@ p.about-moto {
   font-size: 1rem;
   color: var(--color-background-alt-dark);
 }
+
+/* about */
+
+.testimonial-section {
+  margin-top: 50px;
+}
