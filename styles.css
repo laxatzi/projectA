@@ -1980,7 +1980,7 @@ a.footer-col__gen-link {
   max-width: 1240px;
   margin: 50px auto;
   padding: 20px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
 .case-studies--inner,
@@ -2327,11 +2327,11 @@ p.header-moto {
  ## BLOG
 ----------------------------------------- */
 .blog-posts--wrapper {
-  margin: 3rem 0;
+  margin: 3rem 0 0;
 }
 
 .the-blog-post {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   border-bottom: 1px solid var(--color-background-alt);
 }
 
