@@ -1984,7 +1984,8 @@ a.footer-col__gen-link {
 }
 
 .case-studies--inner,
-.blog--inner {
+.blog--inner,
+.about--inner {
   margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr;
@@ -2213,9 +2214,10 @@ span.span-tick {
  ## PORTFOLIO PAGE
 ----------------------------------------- */
 
-p.header-moto {
+p.header-moto,
+p.about-moto {
   margin: 3rem 0 75px 0;
-  font-size: 1.5rem;
+  font-size: calc(0.75rem + 0.65vw);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2227,6 +2229,15 @@ p.header-moto {
   margin-top: calc(var(--space-xs));
   width: calc(var(--space-xs) * 4);
   height: 68px;
+  display: inline-block;
+}
+
+.about-moto--span {
+  background-color: var(--color-main);
+  margin-right: calc(var(--space-xs) * 4);
+  margin-top: calc(var(--space-xs));
+  width: calc(var(--space-xs) * 4);
+  height: 15vh;
   display: inline-block;
 }
 
