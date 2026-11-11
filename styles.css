@@ -2376,4 +2376,35 @@ p.about-moto {
 
 .testimonial-section {
   margin-top: 50px;
+  padding-inline: calc(var(--space-sm) * 25);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .testimonial-section {
+    padding-inline: calc(var(--space-sm) * 20);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .testimonial-section {
+    padding-inline: calc(var(--space-sm) * 17);
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .testimonial-section {
+    padding-inline: calc(var(--space-sm) * 12);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .testimonial-section {
+    padding-inline: calc(var(--space-sm) * 4);
+  }
+}
+
+.testimonial-section h2 {
+  font-size: calc(1.25rem + 1vw);
 }
