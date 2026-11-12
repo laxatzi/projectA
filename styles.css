@@ -2378,7 +2378,7 @@ p.about-moto {
   margin-top: 50px;
   padding-inline: calc(var(--space-sm) * 25);
   padding-top: 70px;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 
 @media screen and (max-width: 1200px) {
