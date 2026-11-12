@@ -2496,7 +2496,7 @@ p.about-moto {
 
 .reviewer {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
 }
 
@@ -2505,6 +2505,7 @@ p.about-moto {
   flex-direction: column;
 }
 
-.company {
+.company p {
   color: var(--color-lighter);
+  font-weight: var(--bs-body-font-weight-light);
 }
