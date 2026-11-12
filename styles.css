@@ -2416,7 +2416,6 @@ p.about-moto {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 0.75rem;
-  border: 1px solid red;
 }
 
 @media screen and (max-width: 1200px) {
@@ -2458,6 +2457,14 @@ p.about-moto {
   border-radius: var(--bs-border-radius-xl);
 }
 
+.review-content {
+  flex-grow: 3;
+}
+
+.review-rate {
+  flex-grow: 2;
+}
+
 .review-content p {
   font-size: var(--bs-body-font-size-small);
   font-weight: var(--bs-body-font-weight-bold);
@@ -2484,4 +2491,8 @@ p.about-moto {
   font-size: var(--bs-body-font-size-smaller);
   text-transform: uppercase;
   color: var(--color-lighter);
+}
+
+.sig {
+  display: flex;
 }
