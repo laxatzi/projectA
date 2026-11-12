@@ -2408,3 +2408,25 @@ p.about-moto {
 .testimonial-section h2 {
   font-size: calc(1.25rem + 1vw);
 }
+
+.testimonials--wrapper {
+  max-width: 1240px;
+  margin: 70px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.75rem;
+  border: 1px solid red;
+}
+
+.testimonial--box {
+  background-color: var(--color-background);
+  color: var(--color);
+  border: 1px solid var(--color-background-alt);
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: auto;
+  padding: calc(var(--space-xs) * 4);
+  border-radius: var(--bs-border-radius-xl);
+}
