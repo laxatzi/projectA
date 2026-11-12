@@ -2411,12 +2411,38 @@ p.about-moto {
 
 .testimonials--wrapper {
   max-width: 1240px;
-  margin: 70px auto;
+  margin-inline: calc(var(--space-sm) * 24);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 0.75rem;
   border: 1px solid red;
+}
+
+@media screen and (max-width: 1200px) {
+  .testimonials--wrapper {
+    margin-inline: calc(var(--space-sm) * 20);
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .testimonials--wrapper {
+    margin-inline: calc(var(--space-sm) * 16);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .testimonials--wrapper {
+    margin-inline: calc(var(--space-sm) * 14);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .testimonials--wrapper {
+    margin-inline: calc(var(--space-sm) * 12);
+  }
 }
 
 .testimonial--box {
@@ -2425,8 +2451,14 @@ p.about-moto {
   border: 1px solid var(--color-background-alt);
   display: flex;
   flex-direction: column;
-  width: 400px;
+  gap: 10px;
+  max-width: 400px;
   height: auto;
   padding: calc(var(--space-xs) * 4);
   border-radius: var(--bs-border-radius-xl);
+}
+
+.review-content p {
+  font-size: var(--bs-body-font-size-small);
+  font-weight: var(--bs-body-font-weight-bold);
 }
