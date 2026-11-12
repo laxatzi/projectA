@@ -2468,3 +2468,20 @@ p.about-moto {
   height: auto;
   color: var(--color-distinct);
 }
+
+.review-stars--wrapper {
+  display: flex;
+  justify-content: start;
+}
+
+.review-rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.verify {
+  font-size: var(--bs-body-font-size-smaller);
+  text-transform: uppercase;
+  color: var(--color-lighter);
+}
