@@ -19,7 +19,7 @@
   --color-background-alt: #c2c9cc;
   --color-background-alt-light: #e8ebf0;
   --color-background-alt-dark: #9ba3a8;
-  --color-distinct: #eec750;
+  --color-distinct: #f0b429;
   /* - Typography Variables */
   --bs-font-monospace: Menlo, Consolas, "Liberation Mono", "Courier New",
     monospace;
@@ -2461,4 +2461,10 @@ p.about-moto {
 .review-content p {
   font-size: var(--bs-body-font-size-small);
   font-weight: var(--bs-body-font-weight-bold);
+}
+
+.review-star svg {
+  width: 15px;
+  height: auto;
+  color: var(--color-distinct);
 }
