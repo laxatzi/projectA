@@ -2465,7 +2465,8 @@ p.about-moto {
   flex-grow: 2;
 }
 
-.review-content p {
+.review-content p,
+.sig p {
   font-size: var(--bs-body-font-size-small);
   font-weight: var(--bs-body-font-weight-bold);
 }
@@ -2493,6 +2494,17 @@ p.about-moto {
   color: var(--color-lighter);
 }
 
+.reviewer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .sig {
   display: flex;
+  flex-direction: column;
+}
+
+.company {
+  color: var(--color-lighter);
 }
