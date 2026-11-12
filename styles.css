@@ -2526,3 +2526,28 @@ p.about-moto {
   border: 1px solid transparent;
   border-radius: 50px;
 }
+
+.icons img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+
+  position: absolute;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.bg-icon1 {
+  top: 250px;
+  left: -15px;
+}
+
+.bg-icon2 {
+  top: 500px;
+  right: -20px;
+}
+
+.bg-icon3 {
+  top: 850px;
+  left: -10px;
+}
