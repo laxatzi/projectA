@@ -2566,7 +2566,11 @@ p.about-moto {
 }
 
 .service-page--hero-image img {
-  width: 800px;
-  height: 400px;
-  padding: calc(var(--space-sm) * 7);
+  width: 1000px;
+  height: 600px;
+  padding: calc(var(--space-xs) * 7);
+}
+
+.service-page--hero-image {
+  border: 1px solid fuchsia;
 }
