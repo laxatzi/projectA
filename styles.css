@@ -738,6 +738,7 @@ li.nav-list__item {
 
 .service-page--hero-contact .button-resembling {
   padding-inline: calc(var(--space-xs) * 10);
+  margin-bottom: 10px;
 }
 
 .email-address .button-resembling,
@@ -845,9 +846,12 @@ li.nav-list__item {
     padding-bottom: calc(var(--space-xs * 10));
   }
 
-  .hero-contact .button-resembling,
-  .service-page--hero-contact .button-resembling {
+  .hero-contact .button-resembling {
     padding-inline: calc(var(--space-xs) * 20);
+  }
+
+  .service-page--hero-contact .button-resembling {
+    padding-inline: calc(var(--space-xs) * 5);
   }
   .email-address .button-resembling {
     padding-inline: calc(var(--space-xs) * 10);
@@ -869,6 +873,10 @@ li.nav-list__item {
     padding-inline: calc(var(--space-xs) * 15);
     padding-top: var(--space-sm);
     padding-bottom: var(--space-sm);
+  }
+
+  .service-page--hero-contact .button-resembling {
+    padding-inline: calc(var(--space-xs) * 5);
   }
 }
 
@@ -2598,6 +2606,12 @@ p.about-moto {
   gap: 20px;
 }
 
+@media screen and (max-width: 960px) {
+  .service-page--hero {
+    flex-direction: column;
+  }
+}
+
 .service-page--hero h1 {
   font-weight: var(--bs-body-font-weight-bold);
 }
@@ -2608,6 +2622,13 @@ p.about-moto {
   padding: calc(var(--space-xs) * 7);
   border: 1px solid transparent;
   border-radius: var(--bs-border-radius-2xl);
+}
+
+@media screen and (max-width: 960px) {
+  .service-page--hero-image img {
+    width: 100%;
+    height: 300px;
+  }
 }
 
 .service-page--hero-image {
@@ -2624,4 +2645,10 @@ p.about-moto {
 
 .service-page--contact {
   display: flex;
+}
+
+@media screen and (max-width: 1360px) {
+  .service-page--contact {
+    flex-direction: column;
+  }
 }
