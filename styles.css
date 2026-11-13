@@ -2539,7 +2539,7 @@ p.about-moto {
 
 .bg-icon1 {
   top: 250px;
-  left: -15px;
+  left: -35px;
 }
 
 .bg-icon2 {
@@ -2547,7 +2547,9 @@ p.about-moto {
   right: -20px;
 }
 
-.bg-icon3 {
-  top: 850px;
-  left: -10px;
+@media screen and (max-width: 860px) {
+  .bg-icon1,
+  .bg-icon2 {
+    display: none;
+  }
 }
