@@ -1024,6 +1024,7 @@ li.nav-list__item {
 .hero-section {
   border: 1px solid fuchsia;
 }
+
 .hero {
   padding: 1rem;
   padding-left: 0;
@@ -2552,4 +2553,20 @@ p.about-moto {
   .bg-icon2 {
     display: none;
   }
+}
+
+/* ---------------------------------------
+ ## Service - Page
+----------------------------------------- */
+
+.service-page--hero {
+  border: 1px solid fuchsia;
+  margin-top: 70px;
+  display: flex;
+}
+
+.service-page--hero-image img {
+  width: 800px;
+  height: 400px;
+  padding: calc(var(--space-sm) * 7);
 }
