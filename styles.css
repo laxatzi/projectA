@@ -733,7 +733,7 @@ li.nav-list__item {
 }
 
 .hero-contact .button-resembling,
-.service-page--hero-contact {
+.service-page--hero-contact .button-resembling {
   padding-inline: calc(var(--space-xs) * 20);
 }
 
@@ -1124,6 +1124,10 @@ li.nav-list__item {
   color: var(--color-background);
 }
 
+.background-blue {
+  background-color: var(--color-main-dark);
+}
+
 .bold-weight {
   font-weight: var(--bs-body-font-weight-bold);
 }
@@ -1164,6 +1168,10 @@ h3.hero-desc {
   align-items: center;
 
   flex: 1;
+}
+
+.service-page--hero-contact {
+  max-width: 300px;
 }
 
 @media screen and (max-width: 920px) {
@@ -2613,8 +2621,4 @@ p.about-moto {
 
 .service-page--contact {
   display: flex;
-}
-
-.service-page--hero-contact {
-  border: 1px solid red;
 }
