@@ -144,7 +144,7 @@ h6 {
 }
 
 h1 {
-  font-size: clamp(2.55rem, 4.75vw, 5.15rem);
+  font-size: clamp(2.55rem, 3.75vw, 5.15rem);
   font-weight: 800;
   line-height: 1.15;
   letter-spacing: -0.05em;
@@ -732,9 +732,12 @@ li.nav-list__item {
   background: var(--ink);
 }
 
-.hero-contact .button-resembling,
-.service-page--hero-contact .button-resembling {
+.hero-contact .button-resembling {
   padding-inline: calc(var(--space-xs) * 20);
+}
+
+.service-page--hero-contact .button-resembling {
+  padding-inline: calc(var(--space-xs) * 10);
 }
 
 .email-address .button-resembling,
