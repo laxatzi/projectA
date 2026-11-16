@@ -2722,8 +2722,21 @@ p.about-moto {
   padding: 30px 20px;
 }
 
-.what-build-content--box h3 {
+.what-build-content--box h3,
+.problems-solve--content-box h3 {
   line-height: 1.4;
   font-size: var(--bs-body-font-size-larger-x);
   font-weight: var(--bs-body-font-weight-bolder);
+}
+
+.problems-solve--content-box {
+  border: 1px solid var(--color-background-alt-dark);
+  border-radius: var(--bs-border-radius-xl);
+  padding: 30px 20px;
+}
+
+.problems-solve--content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  gap: 20px;
 }
