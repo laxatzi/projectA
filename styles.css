@@ -2699,10 +2699,12 @@ p.about-moto {
 .what-build-content {
   border: 1px solid red;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
 }
 
 .what-build-content--box {
   background-color: var(--color-background);
-  border: 1px solid green;
+  border: 1px solid transparent;
+  border-radius: var(--bs-border-radius-xl);
 }
