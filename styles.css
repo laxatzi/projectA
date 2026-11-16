@@ -2671,7 +2671,7 @@ p.about-moto {
 }
 
 .what-build,
-.how-world {
+.how-work {
   background-color: var(--color-background-alt-light);
 }
 
@@ -2689,7 +2689,7 @@ p.about-moto {
   display: grid;
   grid-template-rows: 2;
   grid-template-columns: 2;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 20px 0;
 }
 
@@ -2728,6 +2728,7 @@ p.about-moto {
   display: flex;
   flex-direction: column;
   padding: 30px 10px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -2759,9 +2760,16 @@ p.about-moto {
 
 .problems-solve--content-box,
 .how-work--content-box {
-  border: 1px solid var(--color-background-alt-dark);
   border-radius: var(--bs-border-radius-xl);
   padding: 30px 20px;
+}
+
+.problems-solve--content-box {
+  border: 1px solid var(--color-background-alt-dark);
+}
+
+.how-work--content-box {
+  border: 1px solid transparent;
 }
 
 .problems-solve--content,
