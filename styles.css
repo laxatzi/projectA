@@ -2658,9 +2658,41 @@ p.about-moto {
 ----------------------------------------- */
 .what-build {
   margin: 70px 0;
-  display: grid;
+  display: flex;
   max-width: 1280px;
   gap: 20px;
   background-color: var(--color-background-alt-light);
   border-radius: var(--bs-border-radius-2xl);
+}
+
+.what-build--inner {
+  max-width: 1000px;
+  display: grid;
+  grid-template-rows: 2;
+  grid-template-columns: 2;
+  margin: 0 auto;
+}
+
+.what-build--header {
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 2fr 1fr;
+}
+
+.what-build--header-content {
+  font-size: var(--bs-body-font-size-large);
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.what-build--header-title h2 {
+  font-weight: var(--bs-body-font-weight-bolder);
+}
+
+.what-build--header-title {
+  padding: 40px;
+  display: flex;
+  padding: 30px 10px;
 }
