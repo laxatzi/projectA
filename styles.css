@@ -2667,6 +2667,7 @@ p.about-moto {
   gap: 20px;
   background-color: var(--color-background-alt-light);
   border-radius: var(--bs-border-radius-2xl);
+  padding: 0px 20px;
 }
 
 .what-build {
@@ -2743,4 +2744,8 @@ p.about-moto {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   gap: 20px;
+}
+
+.how-work--content-box {
+  background-color: var(--color-background);
 }
