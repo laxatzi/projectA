@@ -37,6 +37,8 @@
   --bs-body-font-size-smaller: 0.74rem;
   --bs-body-font-size-large: 1.15rem;
   --bs-body-font-size-larger: 1.25rem;
+  --bs-body-font-size-larger-x: 1.5rem;
+  --bs-body-font-size-larger-2x: 1.75rem;
   --bs-body-font-weight-light: 300;
   --bs-body-font-weight: 400;
   --bs-body-font-weight-bold: 600;
@@ -2688,6 +2690,7 @@ p.about-moto {
 
 .what-build--header-title h2 {
   font-weight: var(--bs-body-font-weight-bolder);
+  line-height: 1.4;
 }
 
 .what-build--header-title {
@@ -2707,4 +2710,11 @@ p.about-moto {
   background-color: var(--color-background);
   border: 1px solid transparent;
   border-radius: var(--bs-border-radius-xl);
+  padding: 20px;
+}
+
+.what-build-content--box h3 {
+  line-height: 1.4;
+  font-size: var(--bs-body-font-size-larger-x);
+  font-weight: var(--bs-body-font-weight-bolder);
 }
