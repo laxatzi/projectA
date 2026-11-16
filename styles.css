@@ -2700,7 +2700,6 @@ p.about-moto {
 }
 
 .what-build-content {
-  border: 1px solid red;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 20px;
