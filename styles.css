@@ -2666,22 +2666,21 @@ p.about-moto {
 }
 
 .what-build--inner {
-  max-width: 1000px;
+  max-width: 1100px;
   display: grid;
   grid-template-rows: 2;
   grid-template-columns: 2;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .what-build--header {
   display: grid;
   grid-template-rows: 1;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .what-build--header-content {
   font-size: var(--bs-body-font-size-large);
-  padding: 40px;
   display: flex;
   align-items: center;
   padding: 30px 10px;
@@ -2692,7 +2691,18 @@ p.about-moto {
 }
 
 .what-build--header-title {
-  padding: 40px;
   display: flex;
+  flex-direction: column;
   padding: 30px 10px;
+}
+
+.what-build-content {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.what-build-content--box {
+  background-color: var(--color-background);
+  border: 1px solid green;
 }
