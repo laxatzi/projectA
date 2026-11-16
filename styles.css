@@ -2600,7 +2600,7 @@ p.about-moto {
 ----------------------------------------- */
 
 .service-page--hero {
-  margin-top: 70px;
+  margin: 70px 0;
   display: flex;
   max-width: 1280px;
   gap: 20px;
@@ -2651,4 +2651,16 @@ p.about-moto {
   .service-page--contact {
     flex-direction: column;
   }
+}
+
+/* ---------------------------------------
+ # What Build
+----------------------------------------- */
+.what-build {
+  margin: 70px 0;
+  display: grid;
+  max-width: 1280px;
+  gap: 20px;
+  background-color: var(--color-background-alt-light);
+  border-radius: var(--bs-border-radius-2xl);
 }
