@@ -2659,7 +2659,8 @@ p.about-moto {
  # What Build
 ----------------------------------------- */
 .what-build,
-.problems-solve {
+.problems-solve,
+.how-work {
   margin: 70px 0;
   display: flex;
   max-width: 1280px;
@@ -2723,19 +2724,22 @@ p.about-moto {
 }
 
 .what-build-content--box h3,
-.problems-solve--content-box h3 {
+.problems-solve--content-box h3,
+.how-work--content-box h3 {
   line-height: 1.4;
   font-size: var(--bs-body-font-size-larger-x);
   font-weight: var(--bs-body-font-weight-bolder);
 }
 
-.problems-solve--content-box {
+.problems-solve--content-box,
+.how-work--content-box {
   border: 1px solid var(--color-background-alt-dark);
   border-radius: var(--bs-border-radius-xl);
   padding: 30px 20px;
 }
 
-.problems-solve--content {
+.problems-solve--content,
+.how-work--content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   gap: 20px;
