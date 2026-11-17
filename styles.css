@@ -2027,7 +2027,7 @@ a.footer-col__gen-link {
 .case-studies,
 .blog {
   max-width: 1240px;
-  margin: 50px auto;
+  margin: 50px auto 0;
   padding: 20px;
 }
 
@@ -2389,7 +2389,7 @@ p.about-moto {
 }
 
 .the-blog-post {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   border-bottom: 1px solid var(--color-background-alt);
 }
 
@@ -2412,6 +2412,7 @@ p.about-moto {
 
 .blog-post--content {
   margin-top: 3rem;
+  margin-bottom: 20px;
 }
 
 .blog-post--header .date {
