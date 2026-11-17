@@ -157,15 +157,15 @@ h2 {
 }
 
 h2 {
-  font-size: clamp(1.5rem, 2.45vw + 1rem, 2.65rem);
+  font-size: clamp(2.15rem, 2.45vw + 1rem, 2.65rem);
 }
 
 h3 {
-  font-size: clamp(1.25rem, 2vw + 1rem, 2.25rem);
+  font-size: clamp(1.5rem, 2vw + 1rem, 2.25rem);
 }
 
 h4 {
-  font-size: clamp(1.1rem, 2vw + 0.75rem, 1.75rem);
+  font-size: clamp(1.2rem, 2vw + 0.75rem, 1.75rem);
 }
 
 h5 {
