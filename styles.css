@@ -1062,14 +1062,16 @@ li.nav-list__item {
   padding-left: 0;
 }
 
-#hero-section {
+#hero-section,
+.register {
   position: relative;
   overflow: hidden;
-  background: #fffefd;
+  background: var(--color-background);
   border-radius: var(--bs-border-radius-xl);
 }
 
-#hero-section::before {
+#hero-section::before,
+.register::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -1096,7 +1098,8 @@ li.nav-list__item {
   );
 }
 
-#hero-section > * {
+#hero-section > *,
+.register > * {
   position: relative;
   z-index: 1;
 }
