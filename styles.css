@@ -2673,6 +2673,7 @@ p.about-moto {
   gap: 20px;
   border-radius: var(--bs-border-radius-2xl);
   padding: 20px;
+  padding-block: 50px;
 }
 
 .what-build,
