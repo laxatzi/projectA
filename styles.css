@@ -1198,6 +1198,7 @@ h3.hero-desc {
 .site-footer {
   background-color: var(--color);
   display: grid;
+  margin-top: 150px;
 }
 
 .site-footer__inner {
@@ -1590,6 +1591,10 @@ a.footer-col__gen-link {
  # TESTIMONIALS SECTION
 ----------------------------------------- */
 
+#testimonials {
+  margin-top: 100px;
+}
+
 .testimonials {
   max-width: 1240px;
   margin: 50px auto;
@@ -1785,6 +1790,7 @@ a.footer-col__gen-link {
   max-width: 1240px;
   margin: 50px auto;
   padding: 20px;
+  padding-top: 50px;
 }
 
 .featured__services--inner {
@@ -1969,7 +1975,7 @@ a.footer-col__gen-link {
 
 .why_us {
   max-width: 1240px;
-  margin: 50px auto;
+  margin: 100px auto;
   padding: 20px;
 }
 
@@ -2023,7 +2029,7 @@ a.footer-col__gen-link {
   max-width: 1240px;
   margin: 50px auto;
   padding: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
 }
 
 .case-studies--inner,
@@ -2206,7 +2212,6 @@ input:not(:placeholder-shown) + span {
   padding-inline: calc(var(--space-sm) * 20);
   color: var(--color);
   padding-top: 90px;
-  margin-top: 100px;
 }
 
 .register button {
