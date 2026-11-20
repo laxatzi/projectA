@@ -1009,6 +1009,15 @@ li.nav-list__item {
   margin-top: calc(var(--space-lg) * 4);
 }
 
+.menu-button .fa-chevron-down {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.caret.is-open .fa-chevron-down {
+  transform: rotate(180deg);
+}
+
 @media screen and (max-width: 960px) {
   /* No JavaScript: submenu remains available */
   .no-js .nav-list__sub {
