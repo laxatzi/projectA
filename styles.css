@@ -494,19 +494,19 @@ section:last-of-type {
   padding-inline: calc(var(--space-xs) * 7);
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-inline: calc(var(--space-xs) * 40);
+  margin-inline: calc(var(--space-xs) * 25);
 }
 
 @media screen and (max-width: 950px) {
   .site-header {
     padding-inline: 0;
-    margin-inline: calc(var(--space-xs) * 35);
+    margin-inline: calc(var(--space-xs) * 25);
   }
 }
 
 @media screen and (max-width: 768px) {
   .site-header {
-    margin-inline: calc(var(--space-xs) * 5);
+    margin-inline: calc(var(--space-xs) * 15);
   }
 }
 
