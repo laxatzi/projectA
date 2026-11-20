@@ -1648,12 +1648,13 @@ a.footer-col__gen-link {
 
 #testimonials {
   margin-top: 100px;
+  max-width: 1240px;
+  margin: 70px auto 40px;
+  padding: 20px;
 }
 
 .testimonials {
-  max-width: 1240px;
-  margin: 50px auto;
-  padding: 20px;
+  margin-top: 60px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
