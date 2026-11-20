@@ -685,6 +685,10 @@ li.nav-list__item {
   }
 }
 
+.hero-contact {
+  padding-left: 20px;
+}
+
 .contact a,
 .hero-contact a,
 .service-page--hero-contact a {
@@ -1211,6 +1215,7 @@ h3.hero-desc {
 .hero-container {
   display: grid;
   grid-template-columns: 5fr 2fr;
+  padding-inline: 20px;
 }
 
 @media screen and (max-width: 1284px) {
@@ -1582,6 +1587,7 @@ a.footer-col__gen-link {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: calc(var(--space-sm) * 4);
+  padding-inline: 20px;
 }
 
 .card {
