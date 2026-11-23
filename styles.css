@@ -2487,7 +2487,7 @@ p.about-moto {
 
 .testimonial-section {
   margin-top: 50px;
-  padding-inline: calc(var(--space-sm) * 22);
+  padding-inline: calc(var(--space-sm) * 24);
   padding-top: 10px;
   padding-bottom: 70px;
 }
