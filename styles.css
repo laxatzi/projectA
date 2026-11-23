@@ -2521,12 +2521,6 @@ p.about-moto {
   gap: 0.75rem;
 }
 
-@media screen and (max-width: 1200px) {
-  .testimonials--wrapper {
-    margin-inline: calc(var(--space-sm));
-  }
-}
-
 @media screen and (max-width: 950px) {
   .testimonials--wrapper {
     grid-template-columns: repeat(2, 1fr);
