@@ -939,6 +939,14 @@ li.nav-list__item {
   }
 }
 
+@media screen and (max-width: 611px) {
+  .contact-btn__content {
+    padding-inline: calc(var(--space-xs));
+    padding-top: var(--space-sm);
+    padding-bottom: var(--space-sm);
+  }
+}
+
 .contact-btn__svg {
   display: flex;
   align-items: center;
