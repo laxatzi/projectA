@@ -2507,10 +2507,14 @@ p.about-moto {
   font-size: calc(1.25rem + 1vw);
 }
 
+.testimonial-section--title {
+  margin-bottom: 70px;
+}
+
 .testimonials--wrapper {
   max-width: 1240px;
   padding-bottom: 100px;
-  margin-inline: calc(var(--space-sm) * 24);
+  margin-inline: calc(var(--space-sm));
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -2519,33 +2523,14 @@ p.about-moto {
 
 @media screen and (max-width: 1200px) {
   .testimonials--wrapper {
-    margin-inline: calc(var(--space-sm) * 20);
+    margin-inline: calc(var(--space-sm));
   }
 }
 
 @media screen and (max-width: 950px) {
   .testimonials--wrapper {
-    margin-inline: calc(var(--space-sm) * 16);
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .testimonials--wrapper {
-    margin-inline: calc(var(--space-sm) * 14);
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .testimonials--wrapper {
-    margin-inline: calc(var(--space-sm) * 12);
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .testimonials--wrapper {
-    margin-inline: calc(var(--space-sm));
   }
 }
 
