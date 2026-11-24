@@ -2792,6 +2792,7 @@ p.about-moto {
   border: 1px solid transparent;
   border-radius: var(--bs-border-radius-xl);
   padding: 30px 20px;
+  transition: box-shadow 0.25s ease;
 }
 
 .what-build-content--box:hover {
@@ -2812,6 +2813,7 @@ p.about-moto {
 .how-work--content-box {
   border-radius: var(--bs-border-radius-xl);
   padding: 30px 20px;
+  transition: box-shadow 0.25s ease;
 }
 
 .problems-solve--content-box {
