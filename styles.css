@@ -2286,27 +2286,23 @@ input:not(:placeholder-shown) + span {
 }
 
 .register-form form {
-  border: 1px solid brown;
   max-width: 550px;
 }
 
 @media screen and (max-width: 850px) {
   .register-form form {
-    border: 1px solid green;
     max-width: 480px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .register-form form {
-    border: 1px solid blue;
     max-width: 400px;
   }
 }
 
 @media screen and (max-width: 595px) {
   .register-form form {
-    border: 1px solid cyan;
     max-width: 360px;
   }
 
@@ -2317,7 +2313,6 @@ input:not(:placeholder-shown) + span {
 
 @media screen and (max-width: 550px) {
   .register-form form {
-    border: 1px solid red;
     max-width: 400px;
   }
 }
