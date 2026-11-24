@@ -2794,6 +2794,12 @@ p.about-moto {
   padding: 30px 20px;
 }
 
+.what-build-content--box:hover {
+  border-color: var(--blue);
+  box-shadow: 0 10px 15px -3px var(--color-lighter),
+    0 4px 6px -4px var(--color-light);
+}
+
 .what-build-content--box h3,
 .problems-solve--content-box h3,
 .how-work--content-box h3 {
@@ -2825,4 +2831,10 @@ p.about-moto {
 
 .how-work--content-box {
   background-color: var(--color-background);
+}
+
+.problems-solve--content-box:hover {
+  border-color: var(--blue);
+  box-shadow: 0 10px 15px -3px var(--color-lighter),
+    0 4px 6px -4px var(--color-light);
 }
