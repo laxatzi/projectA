@@ -2797,8 +2797,8 @@ p.about-moto {
 
 .what-build-content--box:hover {
   border-color: var(--blue);
-  box-shadow: 0 8px 15px -3px var(--color-lighter),
-    0 3px 6px -4px var(--color-light);
+  box-shadow: 0 6px 15px -3px var(--color-lighter),
+    0 2px 6px -4px var(--color-light);
 }
 
 .what-build-content--box h3,
@@ -2837,6 +2837,6 @@ p.about-moto {
 
 .problems-solve--content-box:hover {
   border-color: var(--blue);
-  box-shadow: 0 8px 15px -3px var(--color-lighter),
-    0 3px 6px -4px var(--color-light);
+  box-shadow: 0 6px 15px -3px var(--color-lighter),
+    0 2px 6px -4px var(--color-light);
 }
