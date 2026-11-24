@@ -1685,14 +1685,17 @@ a.footer-col__gen-link {
 }
 
 .testimonial__card,
-.card {
+.card,
+.testimonial--box {
   --icon-animation: icon-shake;
 }
 
 .testimonial__card:hover,
 .card:hover,
+.testimonial--box:hover,
 .social-icon__link:focus-visible,
-.card:focus-visible {
+.card:focus-visible,
+.testimonial--box:focus-visible {
   animation: var(--icon-animation) 900ms ease-in-out;
   box-shadow: 0 4px 16px var(--color-background-alt-dark);
 }
