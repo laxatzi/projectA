@@ -1475,6 +1475,12 @@ h4.services {
   flex-direction: column;
 }
 
+@media screen and (max-width: 960px) {
+  .footer-col__services {
+    margin-top: 20px;
+  }
+}
+
 a.footer-col__gen-link,
 a.services__seeHow-link {
   color: white;
