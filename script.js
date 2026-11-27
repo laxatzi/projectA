@@ -14,6 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const isOpen = hamburger.getAttribute("aria-expanded") === "true";
 
       navLinks.classList.toggle("active");
+
+      // Expand sub menu
       hamburger.setAttribute("aria-expanded", String(!isOpen));
       hamburger.setAttribute(
         "aria-label",
