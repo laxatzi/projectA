@@ -13,14 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
     hamburger.addEventListener("click", () => {
       const isOpen = hamburger.getAttribute("aria-expanded") === "true";
 
-      navLinks.classList.toggle("active");
-
       // Expand sub menu
       hamburger.setAttribute("aria-expanded", String(!isOpen));
       hamburger.setAttribute(
         "aria-label",
         isOpen ? "Open navigation menu" : "Close navigation menu",
       );
+
+      navLinks.classList.toggle("active");
     });
   }
 

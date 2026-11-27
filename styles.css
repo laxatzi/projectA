@@ -995,6 +995,24 @@ li.nav-list__item {
   }
 }
 
+/* Initially closed */
+button.toggle-icons .menu-icon--open {
+  display: inline-block;
+}
+
+button.toggle-icons .menu-icon--close {
+  display: none;
+}
+
+/* Open */
+button.toggle-icons[aria-expanded="true"] .menu-icon--open {
+  display: none;
+}
+
+button.toggle-icons[aria-expanded="true"] .menu-icon--close {
+  display: inline-block;
+}
+
 .nav-list__sub {
   display: flex;
   list-style-type: none;
